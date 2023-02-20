@@ -1,17 +1,16 @@
 # game_map.py
 
 from __future__ import annotations
+
 from html import entities
+from typing import TYPE_CHECKING, Iterable
 
 import numpy as np
 from tcod.console import Console
 
 import tile_types
-from room_generation import RectangularRoom
-
-from typing import Iterable, TYPE_CHECKING
-
 from entity import Entity, Transform
+from room_generation import RectangularRoom
 
 
 class GameMap:

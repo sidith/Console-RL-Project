@@ -1,7 +1,9 @@
+import random
 from turtle import color
 from typing import Optional
 
 import tcod
+from console_game_engine import entity_factories
 
 from console_game_engine.colors import colors
 from console_game_engine.engine import Engine
@@ -61,20 +63,19 @@ class Configurations:
         self.default_room_max_size = default_room_max_size
         self.default_max_rooms = default_max_rooms
 
-        # Player and NPC entities
-        self.player_entity = player_entity or Entity(
-            "Player", x=10, y=10, char="@",
-            color=colors["neon blue"]
-        )
-
-        # Event handler and engine
         self.event_handler = EventHandler()
-        self.entities = {self.player_entity}
 
+        # Entities
+        self.entities = {}
         self.game_map = GameMap(
             self.map_width, self.map_height, entities=self.entities)
 
         self.fov_algorithm = fov_algorithm
+
+        # Player
+        self.player_entity = player_entity or entity_factories.player.spawn(
+            gamemap=self.game_map, x=random.randint(0, self.map_width - 1), y=random.randint(0, self.map_height - 1))
+
         self.engine = Engine(
             event_handler=self.event_handler,
             game_map=self.game_map,

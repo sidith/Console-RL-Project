@@ -2,7 +2,7 @@ from typing import Optional
 
 import tcod.event
 
-from console_game_engine.actions import Action, EscapeAction, MovementAction
+from console_game_engine.actions import Action, EscapeAction, BumpAction
 
 MOVE_KEYS = {
     # num keys
@@ -34,7 +34,7 @@ class EventHandler(tcod.event.EventDispatch[Action]):
 
         if key in MOVE_KEYS:
             dx, dy = MOVE_KEYS[key]
-            action = MovementAction(dx, dy)
+            action = BumpAction(dx, dy)
 
         # No valid key was pressed
         return action

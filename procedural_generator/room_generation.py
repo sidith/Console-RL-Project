@@ -1,21 +1,20 @@
+# room_generation.py
 import random
-
-from typing import Tuple
-
-from console_game_engine.entity import Transform
 
 
 # This file contains the code for generating the rooms and tunnels for the dungeon
-
 # A class that represents a room in the dungeon
+
+
 class RectangularRoom:
-    def __init__(self, x: int, y: int, width: int, height: int):
+    def __init__(self, x: int, y: int, width: int, height: int, type: str = 'default'):
         self.x1 = x
         self.y1 = y
         self.x2 = x + width
         self.y2 = y + height
         self.width = width
         self.height = height
+        self.room_type = type
 
     @property
     def center(self):
@@ -47,14 +46,15 @@ class RectangularRoom:
 
     def __str__(self):
         return (
-            f"RectangularRoom at ({self.x1}, {self.y1}) "
-            f"with width {self.width} and height {self.height}"
+            f"{self.room_type} at ({self.x1}, {self.y1}) "
+            f"with width {self.width} and height {self.height} "
+
         )
 
     def __repr__(self):
         return (
-            f"RectangularRoom at ({self.x1}, {self.y1}) "
-            f"with width {self.width} and height {self.height}"
+            f"{self.room_type} at ({self.x1}, {self.y1}) "
+            f"with width {self.width} and height {self.height} "
             f'At memory location {hex(id(self))}'
         )
 
@@ -68,14 +68,7 @@ class RoomGenerator:
 
             return tunnels
 
-        # for i in range(len(rooms)):
-        #     room1 = rooms[i]
-        #     if i == len(rooms)-1:
-        #         room2 = rooms[0]
-        #     else:
-        #         room2 = rooms[(i + 1)]
-
-        # This is a more pythonic way of doing the above for loop using the zip function.  It is a bit more complicated to understand but it is more efficient.
+        # This loop works by taking the first room in the list and connecting it to the second room in the list. Then it takes the second room in the list and connects it to the third room in the list. It does this until it reaches the last room in the list. Then it takes the last room in the list and connects it to the first room in the list. This creates a loop of tunnels.
         for room1, room2 in zip(rooms, rooms[1:] + [rooms[0]]):
             tunnel_pair = self.create_horizontal_and_verticle_tunnel(
                 room1, room2, tunnel_width)
@@ -89,14 +82,14 @@ class RoomGenerator:
         x2, y2 = ending_room.center
 
         horizontal_tunnel = RectangularRoom(
-            min(x1, x2), y1, abs(x1 - x2)+1, tunnel_width)
+            min(x1, x2), y1, abs(x1 - x2)+1, tunnel_width, 'Horzontal Tunnel')
         vertical_tunnel = RectangularRoom(
-            x2, min(y1, y2), tunnel_width, abs(y1 - y2)+1)
+            x2, min(y1, y2), tunnel_width, abs(y1 - y2)+1, 'Vertical Tunnel')
 
         return [horizontal_tunnel, vertical_tunnel]
 
     # This function generates the rooms
-    def generate_rooms(self, map_width: int, map_height: int, max_rooms: int, room_min_size: int, room_max_size: int, player_transform: Transform) -> list[RectangularRoom]:
+    def generate_rooms(self, map_width: int, map_height: int, max_rooms: int, room_min_size: int, room_max_size: int, player_transform: tuple) -> list[RectangularRoom]:
         new_rooms = []
 
         spawn_room = self.create_spawn_room(player_transform)
@@ -108,7 +101,7 @@ class RoomGenerator:
             w = random.randint(room_min_size, room_max_size)
             h = random.randint(room_min_size, room_max_size)
 
-            new_room = RectangularRoom(x, y, w, h)
+            new_room = RectangularRoom(x, y, w, h, 'Basic_Room')
             if any(other_room.intersects(new_room) for other_room in new_rooms):
 
                 continue
@@ -120,8 +113,8 @@ class RoomGenerator:
         return new_rooms
 
     # this function creates the spawn room
-    def create_spawn_room(self, player_transform: Tuple[int, int], spawn_room_size: int = 6) -> RectangularRoom:
+    def create_spawn_room(self, player_transform: tuple[int, int], spawn_room_size: int = 6) -> RectangularRoom:
 
         spawn_room = RectangularRoom(
-            player_transform.x-3, player_transform.y-3, spawn_room_size, spawn_room_size)
+            player_transform.x-3, player_transform.y-3, spawn_room_size, spawn_room_size, "Spawn_Room")
         return spawn_room

@@ -6,6 +6,3 @@ myenv/
 
 # Ignore logs
 logs/
-
-# Ignore Test Script
-test.py

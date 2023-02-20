@@ -4,12 +4,14 @@ disable_existing_loggers: false
 formatters:
   simple:
     format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  console_message:
+    format: '%(message)s'
 
 handlers:
   console:
     class: logging.StreamHandler
-    level: DEBUG
-    formatter: simple
+    level: INFO
+    formatter: console_message
     stream: ext://sys.stdout
 
   game_file:
@@ -28,11 +30,19 @@ handlers:
     maxBytes: 10485760
     backupCount: 20
   
-  bechmark_file:
+  benchmark_file:
     class: logging.handlers.RotatingFileHandler
     level: DEBUG
     formatter: simple
-    filename: logs/bechmark.log
+    filename: logs/benchmark.log
+    maxBytes: 10485760
+    backupCount: 20
+
+  actions_log_file:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: simple
+    filename: logs/actions.log
     maxBytes: 10485760
     backupCount: 20
 
@@ -43,6 +53,7 @@ handlers:
     filename: logs/master.log
     maxBytes: 10485760
     backupCount: 20
+  
 
 loggers:
   game:
@@ -55,7 +66,12 @@ loggers:
     handlers: [console, procedural_gen_file, master_log_file]
     propagate: no
 
-  bechmark:
+  benchmark:
     level: DEBUG
-    handlers: [console, bechmark_file, master_log_file]
+    handlers: [console, benchmark_file, master_log_file]
+    propagate: no
+
+  actions: 
+    level: DEBUG
+    handlers: [console, actions_log_file, master_log_file]
     propagate: no

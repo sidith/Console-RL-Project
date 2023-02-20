@@ -9,11 +9,19 @@ import numpy as np
 from tcod.console import Console
 
 import console_game_engine.tile_types as tile_types
-from console_game_engine.entity import Entity, Transform
 from procedural_generator.room_generation import RectangularRoom
+
+from console_game_engine.timers import benchmark
+
+if TYPE_CHECKING:
+    from .entity import Entity
 
 
 class GameMap:
+
+    # This is a flag that is used to turn on and off the bechmarking, not sure if this is the best way to do it, but it is my current strategy
+    run_benchmarks = True
+
     def __init__(self, width: int, height: int, entities: Iterable[Entity]) -> None:
         """
         Create a new game map.
@@ -31,6 +39,13 @@ class GameMap:
             (width, height), fill_value=False, order="F")
         self.explored = np.full(
             (width, height), fill_value=False, order="F")
+
+    @benchmark
+    def get_blocking_entity_at_location(self, location_x, location_y) -> Entity:
+        for entity in self.entities:
+            if entity.blocks_movement and entity.transform.x == location_x and entity.transform.y == location_y:
+                return entity
+        return None
 
     def in_bounds(self, x: int, y: int) -> bool:
 

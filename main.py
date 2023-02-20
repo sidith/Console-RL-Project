@@ -1,5 +1,4 @@
-
-# set up a logger for the game
+# main.py
 import logging.config
 
 import tcod
@@ -8,7 +7,7 @@ import yaml
 from configurations import Configurations
 
 
-def setup_logging():
+def setup_game_logging():
     with open('logging.yaml', 'r') as f:
         config = yaml.safe_load(f.read())
         logging.config.dictConfig(config)
@@ -27,7 +26,7 @@ def main(config: Configurations, game_logger):
         sdl_window_flags=config.flags
     ) as context:
         game_logger.debug(
-            f'Game context created with the following configurations:\n{config}\n')
+            f'Game context created with the following configurations:\n{config}\n\n')
 
         root_console = tcod.Console(
             config.screen_width, config.screen_height, order='F')
@@ -45,11 +44,11 @@ def main(config: Configurations, game_logger):
 
 
 if __name__ == '__main__':
-    game_logger = setup_logging()
-    game_logger.debug('\n'*2)
+    game_logger = setup_game_logging()
+    game_logger.debug("Cleaning up the log..." + ('\n'*2))
     game_logger.debug('='*80)
     game_logger.debug('Initializing the game...')
-    game_logger.debug('='*80)
+    game_logger.debug(('='*80)+'\n')
 
     config = Configurations()
     main(config, game_logger)

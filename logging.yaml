@@ -12,7 +12,7 @@ handlers:
     formatter: simple
     stream: ext://sys.stdout
 
-  file:
+  game_file:
     class: logging.handlers.RotatingFileHandler
     level: DEBUG
     formatter: simple
@@ -20,8 +20,22 @@ handlers:
     maxBytes: 10485760
     backupCount: 20
 
+  procedural_gen_file:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: simple
+    filename: logs/procedural_gen.log
+    maxBytes: 10485760
+    backupCount: 20
+
 loggers:
   game:
     level: DEBUG
-    handlers: [console, file]
+    handlers: [console, game_file]
     propagate: no
+
+  procedural_gen:
+    level: DEBUG
+    handlers: [console, procedural_gen_file]
+    propagate: no
+

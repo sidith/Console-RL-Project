@@ -26,7 +26,6 @@ class Configurations:
         flags: int = tcod.context.SDL_WINDOW_RESIZABLE,
         title: str = "Sidith's Roguelike",
         player_entity: Optional[Entity] = None,
-        npc_entity: Optional[Entity] = None,
         fov_algorithm=tcod.FOV_PERMISSIVE_4
     ):
         """

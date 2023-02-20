@@ -1,35 +1,47 @@
 # procedual_gen.py
-from optparse import Option
+import logging
+import logging.config
 import random
 from typing import Tuple
+
+import yaml
+
+from console_game_engine.colors import colors
 from console_game_engine.entity import Entity
 from console_game_engine.game_map import GameMap
-import logging
 from procedural_generator.room_generation import RectangularRoom, RoomGenerator
-from console_game_engine.colors import colors
 
-# This function generates a room that is centered on the player
-logging.basicConfig(filename='logs/proc_gen.log', level=logging.DEBUG,
-                    format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+with open('logging.yaml', 'rt') as f:
+    config = yaml.safe_load(f.read())
+    logging.config.dictConfig(config)
+procedrual_gen_logger = logging.getLogger('procedural_gen')
 
 
 # This is the function that actualy generates the dungeon
 def generate_dungeon(game_map: GameMap, max_rooms: int, room_min_size: int, room_max_size: int, player_transform: Tuple[int, int], debug_log: bool = False, max_monsters_per_room=3, max_items_per_room=2):
 
-    logger.info('Generating dungeon...')
+    procedrual_gen_logger.info(
+        'This is an info message from the procedural_gen module')
+
+    procedrual_gen_logger.info('Generating dungeon...')
     rooms, tunnels = room_and_tunnel_generator(
         game_map, max_rooms, room_min_size, room_max_size, player_transform)
-    logger.debug(f'Rooms: {rooms}, and tunnels: {tunnels}')
 
-    logger.debug('Painting rooms and tunnels...')
+    # A string that is a list of all the rooms and tunnels sepertaed by a new line
+    rooms_str = '\n'.join([str(room) for room in rooms])
+    tunnels_str = '\n'.join([str(tunnel) for tunnel in tunnels])
+
+    procedrual_gen_logger.debug(f'\n Rooms: \n{rooms_str}')
+    procedrual_gen_logger.debug(f'\nTunnels: \n{tunnels_str}')
+
+    procedrual_gen_logger.debug('Painting rooms and tunnels...')
     for room in rooms:
         game_map.add_room_to_game_map(
             room, tile_type='floor', slice_type='inner')
     for tunnel in tunnels:
         game_map.add_room_to_game_map(
             tunnel, tile_type='floor', slice_type='outer')
-    logger.debug('Painting rooms and tunnels... Done')
+    procedrual_gen_logger.debug('Painting rooms and tunnels... Done')
 
     monsters = generate_monsters(rooms, max_monsters_per_room)
 
@@ -55,7 +67,7 @@ def generate_monsters(rooms: list[RectangularRoom], max_monster_per_room: int) -
     monsters = []
     for room in rooms:
         number_of_monsters = random.randint(0, max_monster_per_room)
-        for i in range(number_of_monsters):
+        for _ in range(number_of_monsters):
             x = random.randint(room.x1 + 1, room.x2 - 1)
             y = random.randint(room.y1 + 1, room.y2 - 1)
 

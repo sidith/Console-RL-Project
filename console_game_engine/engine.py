@@ -5,7 +5,7 @@ from tcod.console import Console
 from tcod.context import Context
 from tcod.map import compute_fov
 
-import procedural_generator.procedual_gen as procedual_gen
+import procedural_generator.procedural_gen as procedural_gen
 from console_game_engine.entity import Entity, Transform
 from console_game_engine.game_map import GameMap
 from console_game_engine.input_handlers import EventHandler
@@ -64,7 +64,7 @@ class Engine:
         console.clear()
 
     def generate_dungeon(self, max_rooms: int, min_room_size: int, max_room_size: int):
-        procedual_gen.generate_dungeon(
+        procedural_gen.generate_dungeon(
             self.game_map, max_rooms, min_room_size, max_room_size, self.player.transform, debug_log=True)
 
     def __str__(self) -> str:

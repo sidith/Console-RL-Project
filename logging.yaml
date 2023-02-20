@@ -27,15 +27,35 @@ handlers:
     filename: logs/procedural_gen.log
     maxBytes: 10485760
     backupCount: 20
+  
+  bechmark_file:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: simple
+    filename: logs/bechmark.log
+    maxBytes: 10485760
+    backupCount: 20
+
+  master_log_file:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: simple
+    filename: logs/master.log
+    maxBytes: 10485760
+    backupCount: 20
 
 loggers:
   game:
     level: DEBUG
-    handlers: [console, game_file]
+    handlers: [console, game_file, master_log_file]
     propagate: no
 
   procedural_gen:
     level: DEBUG
-    handlers: [console, procedural_gen_file]
+    handlers: [console, procedural_gen_file, master_log_file]
     propagate: no
 
+  bechmark:
+    level: DEBUG
+    handlers: [console, bechmark_file, master_log_file]
+    propagate: no

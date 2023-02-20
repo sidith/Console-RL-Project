@@ -4,6 +4,7 @@ import tcod
 from tcod.console import Console
 from tcod.context import Context
 from tcod.map import compute_fov
+from console_game_engine.timers import benchmark
 
 import procedural_generator.procedural_gen as procedural_gen
 from console_game_engine.entity import Entity, Transform
@@ -63,9 +64,10 @@ class Engine:
         context.present(console)
         console.clear()
 
+    @benchmark
     def generate_dungeon(self, max_rooms: int, min_room_size: int, max_room_size: int):
         procedural_gen.generate_dungeon(
-            self.game_map, max_rooms, min_room_size, max_room_size, self.player.transform, debug_log=True)
+            self.game_map, max_rooms, min_room_size, max_room_size, self.player.transform)
 
     def __str__(self) -> str:
         return f'Engine(event_handler={self.event_handler}, game_map={self.game_map}, player={self.player})'

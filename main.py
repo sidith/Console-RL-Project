@@ -46,7 +46,7 @@ def main(config: Configurations, game_logger):
 
 if __name__ == '__main__':
     game_logger = setup_logging()
-
+    game_logger.debug('\n'*2)
     game_logger.debug('='*80)
     game_logger.debug('Initializing the game...')
     game_logger.debug('='*80)

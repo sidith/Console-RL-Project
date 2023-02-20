@@ -18,12 +18,8 @@ procedrual_gen_logger = logging.getLogger('procedural_gen')
 
 
 # This is the function that actualy generates the dungeon
-def generate_dungeon(game_map: GameMap, max_rooms: int, room_min_size: int, room_max_size: int, player_transform: Tuple[int, int], debug_log: bool = False, max_monsters_per_room=3, max_items_per_room=2):
+def generate_dungeon(game_map: GameMap, max_rooms: int, room_min_size: int, room_max_size: int, player_transform: Tuple[int, int], max_monsters_per_room=3, max_items_per_room=2):
 
-    procedrual_gen_logger.info(
-        'This is an info message from the procedural_gen module')
-
-    procedrual_gen_logger.info('Generating dungeon...')
     rooms, tunnels = room_and_tunnel_generator(
         game_map, max_rooms, room_min_size, room_max_size, player_transform)
 
@@ -31,8 +27,8 @@ def generate_dungeon(game_map: GameMap, max_rooms: int, room_min_size: int, room
     rooms_str = '\n'.join([str(room) for room in rooms])
     tunnels_str = '\n'.join([str(tunnel) for tunnel in tunnels])
 
-    procedrual_gen_logger.debug(f'\n Rooms: \n{rooms_str}')
-    procedrual_gen_logger.debug(f'\nTunnels: \n{tunnels_str}')
+    procedrual_gen_logger.debug(f'Rooms: \n\n{rooms_str}\n')
+    procedrual_gen_logger.debug(f'Tunnels: \n\n{tunnels_str}\n')
 
     procedrual_gen_logger.debug('Painting rooms and tunnels...')
     for room in rooms:

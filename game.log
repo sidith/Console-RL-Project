@@ -1,0 +1,2960 @@
+2023-02-15 13:43:54,047:DEBUG:game: 
+Initializing the game...
+
+2023-02-15 13:43:54,048:DEBUG:game: Loading the configurations...
+2023-02-15 13:43:54,050:DEBUG:game: Configurations loaded
+2023-02-15 13:43:54,050:DEBUG:game: Creating the game context.
+2023-02-15 13:43:54,191:DEBUG:game: Game context created with the following configurations: Configurations(tileset=<tcod.tileset.Tileset object at 0x117a66590>, screen_width=80, screen_height=50, lower_margin=7, map_width=80, map_height=43, game_map=GameMap with width 80 and height 43, vsync=True, flags=32, title=Sidith's Roguelike, entities={<entity.Entity object at 0x117d0c350>, <entity.Entity object at 0x11796cb50>}, event_handler=<input_handlers.EventHandler object at 0x117c3d550>, engine=Engine(entities={<entity.Entity object at 0x117d0c350>, <entity.Entity object at 0x11796cb50>}, event_handler=<input_handlers.EventHandler object at 0x117c3d550>, game_map=GameMap with width 80 and height 43, player=<entity.Entity object at 0x11796cb50>))
+
+
+2023-02-15 13:43:54,191:DEBUG:game: Creating the root console
+2023-02-15 13:43:54,191:DEBUG:game: Generating the dungeon...
+2023-02-15 13:43:54,191:DEBUG:game: Dungeon generated with the following map:
+GameMap with width 80 and height 43
+
+
+2023-02-15 13:43:54,191:DEBUG:game: Starting the game loop...
+2023-02-15 13:52:04,557 - game - DEBUG - 
+Initializing the game...
+
+2023-02-15 13:52:04,558 - game - DEBUG - Loading the configurations...
+2023-02-15 13:52:04,559 - game - DEBUG - Configurations loaded
+2023-02-15 13:52:04,560 - game - DEBUG - Creating the game context.
+2023-02-15 13:52:04,720 - game - DEBUG - Game context created with the following configurations: Configurations(tileset=<tcod.tileset.Tileset object at 0x1273cce10>, screen_width=80, screen_height=50, lower_margin=7, map_width=80, map_height=43, game_map=GameMap with width 80 and height 43, vsync=True, flags=32, title=Sidith's Roguelike, entities={<entity.Entity object at 0x1049d1250>, <entity.Entity object at 0x134ba2250>}, event_handler=<input_handlers.EventHandler object at 0x134b0b7d0>, engine=Engine(entities={<entity.Entity object at 0x1049d1250>, <entity.Entity object at 0x134ba2250>}, event_handler=<input_handlers.EventHandler object at 0x134b0b7d0>, game_map=GameMap with width 80 and height 43, player=<entity.Entity object at 0x134ba2250>))
+
+
+2023-02-15 13:52:04,720 - game - DEBUG - Creating the root console
+2023-02-15 13:52:04,720 - game - DEBUG - Generating the dungeon...
+2023-02-15 13:52:04,721 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 43
+
+
+2023-02-15 13:52:04,721 - game - DEBUG - Starting the game loop...
+2023-02-15 13:57:52,829 - game - DEBUG - ================================================================================
+2023-02-15 13:57:52,829 - game - DEBUG - 
+Initializing the game...
+
+2023-02-15 13:57:52,829 - game - DEBUG - ================================================================================
+2023-02-15 13:57:52,829 - game - DEBUG - Loading the configurations...
+2023-02-15 13:57:52,831 - game - DEBUG - Configurations loaded
+2023-02-15 13:57:52,831 - game - DEBUG - Creating the game context.
+2023-02-15 13:57:52,976 - game - DEBUG - Game context created with the following configurations: Configurations(tileset=<tcod.tileset.Tileset object at 0x117a5b890>, screen_width=80, screen_height=50, lower_margin=7, map_width=80, map_height=43, game_map=GameMap with width 80 and height 43, vsync=True, flags=32, title=Sidith's Roguelike, entities={<entity.Entity object at 0x117a6b190>, <entity.Entity object at 0x117a6ad50>}, event_handler=<input_handlers.EventHandler object at 0x117b2c910>, engine=Engine(entities={<entity.Entity object at 0x117a6b190>, <entity.Entity object at 0x117a6ad50>}, event_handler=<input_handlers.EventHandler object at 0x117b2c910>, game_map=GameMap with width 80 and height 43, player=<entity.Entity object at 0x117a6ad50>))
+
+
+2023-02-15 13:57:52,977 - game - DEBUG - Creating the root console
+2023-02-15 13:57:52,977 - game - DEBUG - Generating defult dungeon...
+2023-02-15 13:57:52,978 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 43
+
+
+2023-02-15 13:57:52,978 - game - DEBUG - Starting the game loop...
+2023-02-15 13:58:14,279 - game - DEBUG - ================================================================================
+2023-02-15 13:58:14,279 - game - DEBUG - Initializing the game...
+2023-02-15 13:58:14,279 - game - DEBUG - ================================================================================
+2023-02-15 13:58:14,279 - game - DEBUG - Loading the configurations...
+2023-02-15 13:58:14,280 - game - DEBUG - Configurations loaded
+2023-02-15 13:58:14,280 - game - DEBUG - Creating the game context.
+2023-02-15 13:58:14,388 - game - DEBUG - Game context created with the following configurations: Configurations(tileset=<tcod.tileset.Tileset object at 0x10f7be290>, screen_width=80, screen_height=50, lower_margin=7, map_width=80, map_height=43, game_map=GameMap with width 80 and height 43, vsync=True, flags=32, title=Sidith's Roguelike, entities={<entity.Entity object at 0x10fa58f50>, <entity.Entity object at 0x10471c2d0>}, event_handler=<input_handlers.EventHandler object at 0x10fa4fd50>, engine=Engine(entities={<entity.Entity object at 0x10fa58f50>, <entity.Entity object at 0x10471c2d0>}, event_handler=<input_handlers.EventHandler object at 0x10fa4fd50>, game_map=GameMap with width 80 and height 43, player=<entity.Entity object at 0x10471c2d0>))
+
+
+2023-02-15 13:58:14,388 - game - DEBUG - Creating the root console
+2023-02-15 13:58:14,388 - game - DEBUG - Generating defult dungeon...
+2023-02-15 13:58:14,389 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 43
+
+
+2023-02-15 13:58:14,389 - game - DEBUG - Starting the game loop...
+2023-02-15 13:58:51,711 - game - DEBUG - ================================================================================
+2023-02-15 13:58:51,711 - game - DEBUG - Initializing the game...
+2023-02-15 13:58:51,711 - game - DEBUG - ================================================================================
+2023-02-15 13:58:51,711 - game - DEBUG - Loading the configurations...
+2023-02-15 13:58:51,716 - game - DEBUG - Configurations loaded
+2023-02-15 13:58:51,717 - game - DEBUG - Creating the game context.
+2023-02-15 13:58:51,855 - game - DEBUG - Game context created with the following configurations: Configurations(tileset=<tcod.tileset.Tileset object at 0x1159ac210>, screen_width=400, screen_height=300, lower_margin=7, map_width=400, map_height=293, game_map=GameMap with width 400 and height 293, vsync=True, flags=32, title=Sidith's Roguelike, entities={<entity.Entity object at 0x115008d10>, <entity.Entity object at 0x115547850>}, event_handler=<input_handlers.EventHandler object at 0x115546c50>, engine=Engine(entities={<entity.Entity object at 0x115008d10>, <entity.Entity object at 0x115547850>}, event_handler=<input_handlers.EventHandler object at 0x115546c50>, game_map=GameMap with width 400 and height 293, player=<entity.Entity object at 0x115008d10>))
+
+
+2023-02-15 13:58:51,855 - game - DEBUG - Creating the root console
+2023-02-15 13:58:51,858 - game - DEBUG - Generating defult dungeon...
+2023-02-15 13:58:51,859 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 400 and height 293
+
+
+2023-02-15 13:58:51,860 - game - DEBUG - Starting the game loop...
+2023-02-15 13:59:16,260 - game - DEBUG - ================================================================================
+2023-02-15 13:59:16,261 - game - DEBUG - Initializing the game...
+2023-02-15 13:59:16,261 - game - DEBUG - ================================================================================
+2023-02-15 13:59:16,261 - game - DEBUG - Loading the configurations...
+2023-02-15 13:59:16,262 - game - DEBUG - Configurations loaded
+2023-02-15 13:59:16,263 - game - DEBUG - Creating the game context.
+2023-02-15 13:59:16,405 - game - DEBUG - Game context created with the following configurations: Configurations(tileset=<tcod.tileset.Tileset object at 0x10d9eabd0>, screen_width=100, screen_height=100, lower_margin=7, map_width=100, map_height=93, game_map=GameMap with width 100 and height 93, vsync=True, flags=32, title=Sidith's Roguelike, entities={<entity.Entity object at 0x10e16bb90>, <entity.Entity object at 0x10e21afd0>}, event_handler=<input_handlers.EventHandler object at 0x10e168910>, engine=Engine(entities={<entity.Entity object at 0x10e16bb90>, <entity.Entity object at 0x10e21afd0>}, event_handler=<input_handlers.EventHandler object at 0x10e168910>, game_map=GameMap with width 100 and height 93, player=<entity.Entity object at 0x10e21afd0>))
+
+
+2023-02-15 13:59:16,406 - game - DEBUG - Creating the root console
+2023-02-15 13:59:16,406 - game - DEBUG - Generating defult dungeon...
+2023-02-15 13:59:16,407 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 100 and height 93
+
+
+2023-02-15 13:59:16,407 - game - DEBUG - Starting the game loop...
+2023-02-15 13:59:48,748 - game - DEBUG - ================================================================================
+2023-02-15 13:59:48,749 - game - DEBUG - Initializing the game...
+2023-02-15 13:59:48,749 - game - DEBUG - ================================================================================
+2023-02-15 13:59:48,749 - game - DEBUG - Loading the configurations...
+2023-02-15 13:59:48,751 - game - DEBUG - Configurations loaded
+2023-02-15 13:59:48,751 - game - DEBUG - Creating the game context.
+2023-02-15 13:59:48,891 - game - DEBUG - Game context created with the following configurations: Configurations(tileset=<tcod.tileset.Tileset object at 0x106b419d0>, screen_width=100, screen_height=100, lower_margin=7, map_width=100, map_height=93, game_map=GameMap with width 100 and height 93, vsync=True, flags=32, title=Sidith's Roguelike, entities={<entity.Entity object at 0x1028897d0>, <entity.Entity object at 0x106a13850>}, event_handler=<input_handlers.EventHandler object at 0x106a5b6d0>, engine=Engine(entities={<entity.Entity object at 0x1028897d0>, <entity.Entity object at 0x106a13850>}, event_handler=<input_handlers.EventHandler object at 0x106a5b6d0>, game_map=GameMap with width 100 and height 93, player=<entity.Entity object at 0x1028897d0>))
+
+
+2023-02-15 13:59:48,891 - game - DEBUG - Creating the root console
+2023-02-15 13:59:48,892 - game - DEBUG - Generating defult dungeon...
+2023-02-15 13:59:48,892 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 100 and height 93
+
+
+2023-02-15 13:59:48,892 - game - DEBUG - Starting the game loop...
+2023-02-15 14:00:52,697 - game - DEBUG - ================================================================================
+2023-02-15 14:00:52,697 - game - DEBUG - Initializing the game...
+2023-02-15 14:00:52,697 - game - DEBUG - ================================================================================
+2023-02-15 14:00:52,697 - game - DEBUG - Loading the configurations...
+2023-02-15 14:00:52,699 - game - DEBUG - Configurations loaded
+2023-02-15 14:00:52,699 - game - DEBUG - Creating the game context.
+2023-02-15 14:00:52,855 - game - DEBUG - Game context created with the following configurations: Configurations(tileset=<tcod.tileset.Tileset object at 0x12e241110>, screen_width=100, screen_height=70, lower_margin=7, map_width=100, map_height=63, game_map=GameMap with width 100 and height 63, vsync=True, flags=32, title=Sidith's Roguelike, entities={<entity.Entity object at 0x12e1a6e90>, <entity.Entity object at 0x102b55850>}, event_handler=<input_handlers.EventHandler object at 0x10cea61d0>, engine=Engine(entities={<entity.Entity object at 0x12e1a6e90>, <entity.Entity object at 0x102b55850>}, event_handler=<input_handlers.EventHandler object at 0x10cea61d0>, game_map=GameMap with width 100 and height 63, player=<entity.Entity object at 0x12e1a6e90>))
+
+
+2023-02-15 14:00:52,855 - game - DEBUG - Creating the root console
+2023-02-15 14:00:52,855 - game - DEBUG - Generating defult dungeon...
+2023-02-15 14:00:52,856 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 100 and height 63
+
+
+2023-02-15 14:00:52,856 - game - DEBUG - Starting the game loop...
+2023-02-15 14:03:23,496 - game - DEBUG - ================================================================================
+2023-02-15 14:03:23,496 - game - DEBUG - Initializing the game...
+2023-02-15 14:03:23,496 - game - DEBUG - ================================================================================
+2023-02-15 14:03:23,497 - game - DEBUG - Loading the configurations...
+2023-02-15 14:03:23,498 - game - DEBUG - Configurations loaded
+2023-02-15 14:03:23,498 - game - DEBUG - Creating the game context.
+2023-02-15 14:03:23,740 - game - DEBUG - Game context created with the following configurations: Configurations(tileset=<tcod.tileset.Tileset object at 0x106daebd0>, screen_width=100, screen_height=70, lower_margin=7, map_width=100, map_height=63, game_map=GameMap with width 100 and height 63, vsync=True, flags=32, title=Sidith's Roguelike, entities={<entity.Entity object at 0x106dafa10>, <entity.Entity object at 0x1068e7650>}, event_handler=<input_handlers.EventHandler object at 0x106aae5d0>, engine=Engine(entities={<entity.Entity object at 0x106dafa10>, <entity.Entity object at 0x1068e7650>}, event_handler=<input_handlers.EventHandler object at 0x106aae5d0>, game_map=GameMap with width 100 and height 63, player=<entity.Entity object at 0x106dafa10>))
+
+
+2023-02-15 14:03:23,740 - game - DEBUG - Creating the root console
+2023-02-15 14:03:23,740 - game - DEBUG - Generating default dungeon...
+2023-02-15 14:03:53,222 - game - DEBUG - ================================================================================
+2023-02-15 14:03:53,222 - game - DEBUG - Initializing the game...
+2023-02-15 14:03:53,223 - game - DEBUG - ================================================================================
+2023-02-15 14:03:53,223 - game - DEBUG - Loading the configurations...
+2023-02-15 14:03:53,224 - game - DEBUG - Configurations loaded
+2023-02-15 14:03:53,224 - game - DEBUG - Creating the game context.
+2023-02-15 14:03:53,380 - game - DEBUG - Game context created with the following configurations: Configurations(tileset=<tcod.tileset.Tileset object at 0x100431210>, screen_width=100, screen_height=70, lower_margin=7, map_width=100, map_height=63, game_map=GameMap with width 100 and height 63, vsync=True, flags=32, title=Sidith's Roguelike, entities={<entity.Entity object at 0x11556ad10>, <entity.Entity object at 0x11532ca90>}, event_handler=<input_handlers.EventHandler object at 0x1153f6710>, engine=Engine(entities={<entity.Entity object at 0x11556ad10>, <entity.Entity object at 0x11532ca90>}, event_handler=<input_handlers.EventHandler object at 0x1153f6710>, game_map=GameMap with width 100 and height 63, player=<entity.Entity object at 0x11556ad10>))
+
+
+2023-02-15 14:03:53,380 - game - DEBUG - Creating the root console
+2023-02-15 14:03:53,380 - game - DEBUG - Generating default dungeon...
+2023-02-15 14:04:02,540 - game - DEBUG - ================================================================================
+2023-02-15 14:04:02,540 - game - DEBUG - Initializing the game...
+2023-02-15 14:04:02,540 - game - DEBUG - ================================================================================
+2023-02-15 14:04:02,540 - game - DEBUG - Loading the configurations...
+2023-02-15 14:04:02,541 - game - DEBUG - Configurations loaded
+2023-02-15 14:04:02,541 - game - DEBUG - Creating the game context.
+2023-02-15 14:04:02,684 - game - DEBUG - Game context created with the following configurations: Configurations(tileset=<tcod.tileset.Tileset object at 0x118978390>, screen_width=100, screen_height=70, lower_margin=7, map_width=100, map_height=63, game_map=GameMap with width 100 and height 63, vsync=True, flags=32, title=Sidith's Roguelike, entities={<entity.Entity object at 0x118a2c210>, <entity.Entity object at 0x118bead50>}, event_handler=<input_handlers.EventHandler object at 0x118cceb90>, engine=Engine(entities={<entity.Entity object at 0x118a2c210>, <entity.Entity object at 0x118bead50>}, event_handler=<input_handlers.EventHandler object at 0x118cceb90>, game_map=GameMap with width 100 and height 63, player=<entity.Entity object at 0x118a2c210>))
+
+
+2023-02-15 14:04:02,684 - game - DEBUG - Creating the root console
+2023-02-15 14:04:02,684 - game - DEBUG - Generating default dungeon...
+2023-02-15 14:04:02,685 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 100 and height 63
+
+
+2023-02-15 14:04:02,685 - game - DEBUG - Starting the game loop...
+2023-02-15 14:07:41,105 - game - DEBUG - ================================================================================
+2023-02-15 14:07:41,105 - game - DEBUG - Initializing the game...
+2023-02-15 14:07:41,105 - game - DEBUG - ================================================================================
+2023-02-15 14:07:41,105 - game - DEBUG - Loading the configurations...
+2023-02-15 14:07:41,107 - game - DEBUG - Configurations loaded
+2023-02-15 14:07:41,107 - game - DEBUG - Creating the game context.
+2023-02-15 14:07:41,249 - game - DEBUG - Game context created with the following configurations: Configurations(
+    tileset=<tcod.tileset.Tileset object at 0x100f2d210>,
+    screen_width=100,
+    screen_height=70,
+    lower_margin=7,
+    map_width=100,
+    map_height=63,
+    game_map=GameMap with width 100 and height 63,
+    vsync=True,
+    flags=32,
+    title=Sidith's Roguelike,
+    entities={<entity.Entity object at 0x11551d490>, <entity.Entity object at 0x1158a75d0>},
+    event_handler=<input_handlers.EventHandler object at 0x1155eaf50>,
+    engine=Engine(entities={<entity.Entity object at 0x11551d490>, <entity.Entity object at 0x1158a75d0>}, event_handler=<input_handlers.EventHandler object at 0x1155eaf50>, game_map=GameMap with width 100 and height 63, player=<entity.Entity object at 0x1158a75d0>)
+)
+
+
+2023-02-15 14:07:41,250 - game - DEBUG - Creating the root console
+2023-02-15 14:07:41,250 - game - DEBUG - Generating default dungeon...
+2023-02-15 14:07:41,251 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 100 and height 63
+
+
+2023-02-15 14:07:41,251 - game - DEBUG - Starting the game loop...
+2023-02-15 14:12:15,104 - game - DEBUG - ================================================================================
+2023-02-15 14:12:15,104 - game - DEBUG - Initializing the game...
+2023-02-15 14:12:15,104 - game - DEBUG - ================================================================================
+2023-02-15 14:12:15,104 - game - DEBUG - Loading the configurations...
+2023-02-15 14:12:15,106 - game - DEBUG - Configurations loaded
+2023-02-15 14:12:15,106 - game - DEBUG - Creating the game context.
+2023-02-15 14:18:05,727 - game - DEBUG - ================================================================================
+2023-02-15 14:18:05,727 - game - DEBUG - Initializing the game...
+2023-02-15 14:18:05,727 - game - DEBUG - ================================================================================
+2023-02-15 14:18:05,727 - game - DEBUG - Loading the configurations...
+2023-02-15 14:18:05,729 - game - DEBUG - Configurations loaded
+2023-02-15 14:18:05,729 - game - DEBUG - Creating the game context.
+2023-02-15 14:18:05,896 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen related parameters:
+    tileset=<tcod.tileset.Tileset object at 0x108c4bd90>,
+    screen_width=100,
+    screen_height=70,
+    lower_margin=7,
+    map_width=100,
+    map_height=63,
+    game_map=GameMap with width 100 and height 63,
+    vsync=True,
+    flags=32,
+    title=Sidith's Roguelike,
+    Default room parameters:
+    default_room_max_size=10,
+    default_room_min_size=6,
+    default_max_rooms=30,
+    Entity related parameters:
+    entities={Entity NPC at: "(45, 35)" at memory location 0x108d38650, Entity Player at: "(10, 10)" at memory location 0x10938b1d0},
+    event_handler=<input_handlers.EventHandler object at 0x1093a7f10>,
+    engine=Engine(entities={Entity NPC at: "(45, 35)" at memory location 0x108d38650, Entity Player at: "(10, 10)" at memory location 0x10938b1d0}, event_handler=<input_handlers.EventHandler object at 0x1093a7f10>, game_map=GameMap with width 100 and height 63, player=Entity Player at: "(10, 10"))
+)
+
+
+2023-02-15 14:18:05,896 - game - DEBUG - Creating the root console
+2023-02-15 14:18:05,897 - game - DEBUG - Generating default dungeon...
+2023-02-15 14:18:05,897 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 100 and height 63
+
+
+2023-02-15 14:18:05,897 - game - DEBUG - Starting the game loop...
+2023-02-15 14:27:27,452 - game - DEBUG - ================================================================================
+2023-02-15 14:27:27,452 - game - DEBUG - Initializing the game...
+2023-02-15 14:27:27,452 - game - DEBUG - ================================================================================
+2023-02-15 14:27:27,452 - game - DEBUG - Loading the configurations...
+2023-02-15 14:27:27,454 - game - DEBUG - Configurations loaded
+2023-02-15 14:27:27,454 - game - DEBUG - Creating the game context.
+2023-02-15 14:27:27,603 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen related parameters:
+    tileset=<tcod.tileset.Tileset object at 0x11361fe10>,
+    screen_width=80,
+    screen_height=50,
+    lower_margin=10,
+    map_width=80,
+    map_height=43,
+    game_map=GameMap with width 80 and height 43,
+    vsync=True,
+    flags=32,
+    title=Sidith's Roguelike,
+    Default room parameters:
+    default_room_max_size=10,
+    default_room_min_size=6,
+    default_max_rooms=30,
+    Entity related parameters:
+    entities={Entity NPC at: "(35, 25)" at memory location 0x1010a5490, Entity Player at: "(10, 10)" at memory location 0x1010a5b90},
+    event_handler=<input_handlers.EventHandler object at 0x11362e050>,
+    engine=Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x1010a5490, Entity Player at: "(10, 10)" at memory location 0x1010a5b90}, event_handler=<input_handlers.EventHandler object at 0x11362e050>, game_map=GameMap with width 80 and height 43, player=Entity Player at: "(10, 10"))
+)
+
+
+2023-02-15 14:27:27,603 - game - DEBUG - Creating the root console
+2023-02-15 14:27:27,603 - game - DEBUG - Generating default dungeon...
+2023-02-15 14:27:27,604 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 43
+
+
+2023-02-15 14:27:27,604 - game - DEBUG - Starting the game loop...
+2023-02-15 14:30:03,600 - game - DEBUG - ================================================================================
+2023-02-15 14:30:03,600 - game - DEBUG - Initializing the game...
+2023-02-15 14:30:03,600 - game - DEBUG - ================================================================================
+2023-02-15 14:30:03,600 - game - DEBUG - Loading the configurations...
+2023-02-15 14:30:39,590 - game - DEBUG - ================================================================================
+2023-02-15 14:30:39,590 - game - DEBUG - Initializing the game...
+2023-02-15 14:30:39,590 - game - DEBUG - ================================================================================
+2023-02-15 14:30:39,590 - game - DEBUG - Loading the configurations...
+2023-02-15 14:30:39,592 - game - DEBUG - Configurations loaded
+2023-02-15 14:30:39,592 - game - DEBUG - Creating the game context.
+2023-02-15 14:30:39,836 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen related parameters:
+    tileset=<tcod.tileset.Tileset object at 0x102f7d810>,
+    screen_width=80,
+    screen_height=50,
+    lower_margin=10,
+    map_width=80,
+    map_height=40,
+    game_map=GameMap with width 80 and height 40,
+    vsync=True,
+    flags=32,
+    title=Sidith's Roguelike,
+    Default room parameters:
+    default_room_max_size=10,
+    default_room_min_size=6,
+    default_max_rooms=30,
+    Entity related parameters:
+    entities={Entity Player at: "(10, 10)" at memory location 0x102f7d210, Entity NPC at: "(35, 25)" at memory location 0x124fb77d0},
+    event_handler=<input_handlers.EventHandler object at 0x124d3ecd0>,
+    engine=Engine(entities={Entity Player at: "(10, 10)" at memory location 0x102f7d210, Entity NPC at: "(35, 25)" at memory location 0x124fb77d0}, event_handler=<input_handlers.EventHandler object at 0x124d3ecd0>, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+)
+
+
+2023-02-15 14:30:39,837 - game - DEBUG - Creating the root console
+2023-02-15 14:30:39,838 - game - DEBUG - Generating default dungeon...
+2023-02-15 14:30:39,839 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 14:30:39,839 - game - DEBUG - Starting the game loop...
+2023-02-15 14:33:05,195 - game - DEBUG - ================================================================================
+2023-02-15 14:33:05,195 - game - DEBUG - Initializing the game...
+2023-02-15 14:33:05,195 - game - DEBUG - ================================================================================
+2023-02-15 14:33:05,195 - game - DEBUG - Loading the configurations...
+2023-02-15 14:33:05,199 - game - DEBUG - Configurations loaded
+2023-02-15 14:33:05,199 - game - DEBUG - Creating the game context.
+2023-02-15 14:33:05,330 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x10fd99d90>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: <input_handlers.EventHandler object at 0x10f972550>
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x10f99f810, Entity Player at: "(10, 10)" at memory location 0x10fd99750}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x10f99f810, Entity Player at: "(10, 10)" at memory location 0x10fd99750}, event_handler=<input_handlers.EventHandler object at 0x10f972550>, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 14:33:05,331 - game - DEBUG - Creating the root console
+2023-02-15 14:33:05,331 - game - DEBUG - Generating default dungeon...
+2023-02-15 14:33:05,332 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 14:33:05,332 - game - DEBUG - Starting the game loop...
+2023-02-15 14:33:09,993 - game - DEBUG - ================================================================================
+2023-02-15 14:33:09,993 - game - DEBUG - Initializing the game...
+2023-02-15 14:33:09,993 - game - DEBUG - ================================================================================
+2023-02-15 14:33:09,993 - game - DEBUG - Loading the configurations...
+2023-02-15 14:33:09,994 - game - DEBUG - Configurations loaded
+2023-02-15 14:33:09,994 - game - DEBUG - Creating the game context.
+2023-02-15 14:33:10,092 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x107ca18d0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: <input_handlers.EventHandler object at 0x1077a7ad0>
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x1077c7b10, Entity NPC at: "(35, 25)" at memory location 0x107c96f50}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x1077c7b10, Entity NPC at: "(35, 25)" at memory location 0x107c96f50}, event_handler=<input_handlers.EventHandler object at 0x1077a7ad0>, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 14:33:10,092 - game - DEBUG - Creating the root console
+2023-02-15 14:33:10,092 - game - DEBUG - Generating default dungeon...
+2023-02-15 14:33:10,093 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 14:33:10,093 - game - DEBUG - Starting the game loop...
+2023-02-15 15:06:04,632 - game - DEBUG - ================================================================================
+2023-02-15 15:06:04,632 - game - DEBUG - Initializing the game...
+2023-02-15 15:06:04,632 - game - DEBUG - ================================================================================
+2023-02-15 15:06:04,632 - game - DEBUG - Loading the configurations...
+2023-02-15 15:06:04,634 - game - DEBUG - Configurations loaded
+2023-02-15 15:06:04,634 - game - DEBUG - Creating the game context.
+2023-02-15 15:06:04,767 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x13004cc50>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x1303c3110, Entity Player at: "(10, 10)" at memory location 0x120585950}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x1303c3110, Entity Player at: "(10, 10)" at memory location 0x120585950}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:06:04,767 - game - DEBUG - Creating the root console
+2023-02-15 15:06:04,768 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:06:04,768 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:06:04,768 - game - DEBUG - Starting the game loop...
+2023-02-15 15:07:02,638 - game - DEBUG - ================================================================================
+2023-02-15 15:07:02,638 - game - DEBUG - Initializing the game...
+2023-02-15 15:07:02,638 - game - DEBUG - ================================================================================
+2023-02-15 15:07:02,638 - game - DEBUG - Loading the configurations...
+2023-02-15 15:07:02,639 - game - DEBUG - Configurations loaded
+2023-02-15 15:07:02,639 - game - DEBUG - Creating the game context.
+2023-02-15 15:07:02,744 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x11f0dc8d0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x11f7abd10, Entity NPC at: "(35, 25)" at memory location 0x11f7abb10}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x11f7abd10, Entity NPC at: "(35, 25)" at memory location 0x11f7abb10}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:07:02,744 - game - DEBUG - Creating the root console
+2023-02-15 15:07:02,745 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:07:02,745 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:07:02,745 - game - DEBUG - Starting the game loop...
+2023-02-15 15:07:30,343 - game - DEBUG - ================================================================================
+2023-02-15 15:07:30,343 - game - DEBUG - Initializing the game...
+2023-02-15 15:07:30,343 - game - DEBUG - ================================================================================
+2023-02-15 15:07:30,343 - game - DEBUG - Loading the configurations...
+2023-02-15 15:07:30,343 - game - DEBUG - Configurations loaded
+2023-02-15 15:07:30,344 - game - DEBUG - Creating the game context.
+2023-02-15 15:07:30,441 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x123a4f0d0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x123d96d90, Entity NPC at: "(35, 25)" at memory location 0x123b758d0}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x123d96d90, Entity NPC at: "(35, 25)" at memory location 0x123b758d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:07:30,441 - game - DEBUG - Creating the root console
+2023-02-15 15:07:30,441 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:07:30,442 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:07:30,442 - game - DEBUG - Starting the game loop...
+2023-02-15 15:08:44,476 - game - DEBUG - ================================================================================
+2023-02-15 15:08:44,477 - game - DEBUG - Initializing the game...
+2023-02-15 15:08:44,477 - game - DEBUG - ================================================================================
+2023-02-15 15:08:44,477 - game - DEBUG - Loading the configurations...
+2023-02-15 15:08:44,477 - game - DEBUG - Configurations loaded
+2023-02-15 15:08:44,477 - game - DEBUG - Creating the game context.
+2023-02-15 15:08:44,591 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x115a4f590>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x1151fa790, Entity NPC at: "(35, 25)" at memory location 0x115ba2a90}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x1151fa790, Entity NPC at: "(35, 25)" at memory location 0x115ba2a90}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:08:44,591 - game - DEBUG - Creating the root console
+2023-02-15 15:08:44,591 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:08:44,592 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:08:44,592 - game - DEBUG - Starting the game loop...
+2023-02-15 15:14:12,588 - game - DEBUG - ================================================================================
+2023-02-15 15:14:12,588 - game - DEBUG - Initializing the game...
+2023-02-15 15:14:12,589 - game - DEBUG - ================================================================================
+2023-02-15 15:14:12,589 - game - DEBUG - Loading the configurations...
+2023-02-15 15:14:12,590 - game - DEBUG - Configurations loaded
+2023-02-15 15:14:12,590 - game - DEBUG - Creating the game context.
+2023-02-15 15:14:12,701 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1157a9650>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x1157b4410, Entity NPC at: "(35, 25)" at memory location 0x1156dce90}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x1157b4410, Entity NPC at: "(35, 25)" at memory location 0x1156dce90}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:14:12,702 - game - DEBUG - Creating the root console
+2023-02-15 15:14:12,702 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:14:12,703 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:14:12,703 - game - DEBUG - Starting the game loop...
+2023-02-15 15:18:41,471 - game - DEBUG - ================================================================================
+2023-02-15 15:18:41,471 - game - DEBUG - Initializing the game...
+2023-02-15 15:18:41,471 - game - DEBUG - ================================================================================
+2023-02-15 15:18:41,471 - game - DEBUG - Loading the configurations...
+2023-02-15 15:18:56,378 - game - DEBUG - ================================================================================
+2023-02-15 15:18:56,378 - game - DEBUG - Initializing the game...
+2023-02-15 15:18:56,378 - game - DEBUG - ================================================================================
+2023-02-15 15:18:56,378 - game - DEBUG - Loading the configurations...
+2023-02-15 15:18:56,380 - game - DEBUG - Configurations loaded
+2023-02-15 15:18:56,380 - game - DEBUG - Creating the game context.
+2023-02-15 15:18:56,491 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1605c04d0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x117d1a750, Entity Player at: "(10, 10)" at memory location 0x16022a7d0}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x117d1a750, Entity Player at: "(10, 10)" at memory location 0x16022a7d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:18:56,491 - game - DEBUG - Creating the root console
+2023-02-15 15:18:56,491 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:18:56,492 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:18:56,492 - game - DEBUG - Starting the game loop...
+2023-02-15 15:19:28,736 - game - DEBUG - ================================================================================
+2023-02-15 15:19:28,736 - game - DEBUG - Initializing the game...
+2023-02-15 15:19:28,736 - game - DEBUG - ================================================================================
+2023-02-15 15:19:28,736 - game - DEBUG - Loading the configurations...
+2023-02-15 15:19:28,737 - game - DEBUG - Configurations loaded
+2023-02-15 15:19:28,737 - game - DEBUG - Creating the game context.
+2023-02-15 15:19:28,836 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1205cc490>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x116d2a510, Entity Player at: "(10, 10)" at memory location 0x116d2a490}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x116d2a510, Entity Player at: "(10, 10)" at memory location 0x116d2a490}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:19:28,836 - game - DEBUG - Creating the root console
+2023-02-15 15:19:28,836 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:19:28,837 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:19:28,837 - game - DEBUG - Starting the game loop...
+2023-02-15 15:21:20,061 - game - DEBUG - ================================================================================
+2023-02-15 15:21:20,061 - game - DEBUG - Initializing the game...
+2023-02-15 15:21:20,061 - game - DEBUG - ================================================================================
+2023-02-15 15:21:20,061 - game - DEBUG - Loading the configurations...
+2023-02-15 15:21:20,062 - game - DEBUG - Configurations loaded
+2023-02-15 15:21:20,062 - game - DEBUG - Creating the game context.
+2023-02-15 15:21:20,165 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x115933410>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x115933f90, Entity NPC at: "(35, 25)" at memory location 0x115973090}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x115933f90, Entity NPC at: "(35, 25)" at memory location 0x115973090}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:21:20,165 - game - DEBUG - Creating the root console
+2023-02-15 15:21:20,166 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:21:20,166 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:21:20,166 - game - DEBUG - Starting the game loop...
+2023-02-15 15:22:54,496 - game - DEBUG - ================================================================================
+2023-02-15 15:22:54,496 - game - DEBUG - Initializing the game...
+2023-02-15 15:22:54,496 - game - DEBUG - ================================================================================
+2023-02-15 15:22:54,496 - game - DEBUG - Loading the configurations...
+2023-02-15 15:22:54,497 - game - DEBUG - Configurations loaded
+2023-02-15 15:22:54,497 - game - DEBUG - Creating the game context.
+2023-02-15 15:22:54,599 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x122501350>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x104f5d810, Entity NPC at: "(35, 25)" at memory location 0x104f5d210}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x104f5d810, Entity NPC at: "(35, 25)" at memory location 0x104f5d210}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:22:54,599 - game - DEBUG - Creating the root console
+2023-02-15 15:22:54,599 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:22:54,600 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:22:54,600 - game - DEBUG - Starting the game loop...
+2023-02-15 15:25:32,590 - game - DEBUG - ================================================================================
+2023-02-15 15:25:32,590 - game - DEBUG - Initializing the game...
+2023-02-15 15:25:32,590 - game - DEBUG - ================================================================================
+2023-02-15 15:25:32,590 - game - DEBUG - Loading the configurations...
+2023-02-15 15:25:32,592 - game - DEBUG - Configurations loaded
+2023-02-15 15:25:32,592 - game - DEBUG - Creating the game context.
+2023-02-15 15:25:32,703 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x128cd3fd0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x129ded010, Entity NPC at: "(35, 25)" at memory location 0x129b57810}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x129ded010, Entity NPC at: "(35, 25)" at memory location 0x129b57810}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:25:32,704 - game - DEBUG - Creating the root console
+2023-02-15 15:25:32,704 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:25:32,704 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:25:32,705 - game - DEBUG - Starting the game loop...
+2023-02-15 15:26:25,246 - game - DEBUG - ================================================================================
+2023-02-15 15:26:25,246 - game - DEBUG - Initializing the game...
+2023-02-15 15:26:25,246 - game - DEBUG - ================================================================================
+2023-02-15 15:26:25,246 - game - DEBUG - Loading the configurations...
+2023-02-15 15:26:25,248 - game - DEBUG - Configurations loaded
+2023-02-15 15:26:25,248 - game - DEBUG - Creating the game context.
+2023-02-15 15:26:25,359 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x11702b0d0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 10
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x11702b590, Entity Player at: "(10, 10)" at memory location 0x117088290}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x11702b590, Entity Player at: "(10, 10)" at memory location 0x117088290}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:26:25,359 - game - DEBUG - Creating the root console
+2023-02-15 15:26:25,359 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:26:25,360 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:26:25,360 - game - DEBUG - Starting the game loop...
+2023-02-15 15:27:01,684 - game - DEBUG - ================================================================================
+2023-02-15 15:27:01,684 - game - DEBUG - Initializing the game...
+2023-02-15 15:27:01,684 - game - DEBUG - ================================================================================
+2023-02-15 15:27:01,684 - game - DEBUG - Loading the configurations...
+2023-02-15 15:27:01,685 - game - DEBUG - Configurations loaded
+2023-02-15 15:27:01,685 - game - DEBUG - Creating the game context.
+2023-02-15 15:27:01,781 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x117871a50>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 20
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x117870790, Entity NPC at: "(35, 25)" at memory location 0x117dfc4d0}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x117870790, Entity NPC at: "(35, 25)" at memory location 0x117dfc4d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:27:01,781 - game - DEBUG - Creating the root console
+2023-02-15 15:27:01,782 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:27:01,782 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:27:01,782 - game - DEBUG - Starting the game loop...
+2023-02-15 15:27:36,397 - game - DEBUG - ================================================================================
+2023-02-15 15:27:36,397 - game - DEBUG - Initializing the game...
+2023-02-15 15:27:36,397 - game - DEBUG - ================================================================================
+2023-02-15 15:27:36,397 - game - DEBUG - Loading the configurations...
+2023-02-15 15:27:36,398 - game - DEBUG - Configurations loaded
+2023-02-15 15:27:36,398 - game - DEBUG - Creating the game context.
+2023-02-15 15:27:36,507 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x102d6d210>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 20
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x110d675d0, Entity Player at: "(10, 10)" at memory location 0x1112cc1d0}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x110d675d0, Entity Player at: "(10, 10)" at memory location 0x1112cc1d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:27:36,507 - game - DEBUG - Creating the root console
+2023-02-15 15:27:36,507 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:27:36,507 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:27:36,507 - game - DEBUG - Starting the game loop...
+2023-02-15 15:28:31,947 - game - DEBUG - ================================================================================
+2023-02-15 15:28:31,947 - game - DEBUG - Initializing the game...
+2023-02-15 15:28:31,947 - game - DEBUG - ================================================================================
+2023-02-15 15:28:31,947 - game - DEBUG - Loading the configurations...
+2023-02-15 15:28:31,948 - game - DEBUG - Configurations loaded
+2023-02-15 15:28:31,948 - game - DEBUG - Creating the game context.
+2023-02-15 15:28:32,073 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x12db47d50>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 20
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x12db44310, Entity NPC at: "(35, 25)" at memory location 0x12db47050}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x12db44310, Entity NPC at: "(35, 25)" at memory location 0x12db47050}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:28:32,073 - game - DEBUG - Creating the root console
+2023-02-15 15:28:32,073 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:28:32,074 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:28:32,074 - game - DEBUG - Starting the game loop...
+2023-02-15 15:29:46,647 - game - DEBUG - ================================================================================
+2023-02-15 15:29:46,647 - game - DEBUG - Initializing the game...
+2023-02-15 15:29:46,647 - game - DEBUG - ================================================================================
+2023-02-15 15:29:46,647 - game - DEBUG - Loading the configurations...
+2023-02-15 15:29:46,648 - game - DEBUG - Configurations loaded
+2023-02-15 15:29:46,648 - game - DEBUG - Creating the game context.
+2023-02-15 15:29:46,754 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x112a69a90>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 20
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x11795c910, Entity NPC at: "(35, 25)" at memory location 0x100b19210}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x11795c910, Entity NPC at: "(35, 25)" at memory location 0x100b19210}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:29:46,754 - game - DEBUG - Creating the root console
+2023-02-15 15:29:46,755 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:29:46,755 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:29:46,755 - game - DEBUG - Starting the game loop...
+2023-02-15 15:30:55,505 - game - DEBUG - ================================================================================
+2023-02-15 15:30:55,505 - game - DEBUG - Initializing the game...
+2023-02-15 15:30:55,505 - game - DEBUG - ================================================================================
+2023-02-15 15:30:55,505 - game - DEBUG - Loading the configurations...
+2023-02-15 15:30:55,506 - game - DEBUG - Configurations loaded
+2023-02-15 15:30:55,506 - game - DEBUG - Creating the game context.
+2023-02-15 15:30:55,610 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x115b4f590>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 6
+      default_room_max_size: 20
+      default_max_rooms: 30
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x115b4f810, Entity NPC at: "(35, 25)" at memory location 0x1008a5810}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x115b4f810, Entity NPC at: "(35, 25)" at memory location 0x1008a5810}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:30:55,610 - game - DEBUG - Creating the root console
+2023-02-15 15:30:55,611 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:30:55,611 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:30:55,611 - game - DEBUG - Starting the game loop...
+2023-02-15 15:31:39,388 - game - DEBUG - ================================================================================
+2023-02-15 15:31:39,388 - game - DEBUG - Initializing the game...
+2023-02-15 15:31:39,388 - game - DEBUG - ================================================================================
+2023-02-15 15:31:39,388 - game - DEBUG - Loading the configurations...
+2023-02-15 15:31:39,388 - game - DEBUG - Configurations loaded
+2023-02-15 15:31:39,388 - game - DEBUG - Creating the game context.
+2023-02-15 15:31:39,495 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x111fa3550>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x111ecc1d0, Entity NPC at: "(35, 25)" at memory location 0x111dc7b50}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x111ecc1d0, Entity NPC at: "(35, 25)" at memory location 0x111dc7b50}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:31:39,495 - game - DEBUG - Creating the root console
+2023-02-15 15:31:39,495 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:31:39,496 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:31:39,496 - game - DEBUG - Starting the game loop...
+2023-02-15 15:33:39,630 - game - DEBUG - ================================================================================
+2023-02-15 15:33:39,630 - game - DEBUG - Initializing the game...
+2023-02-15 15:33:39,630 - game - DEBUG - ================================================================================
+2023-02-15 15:33:39,630 - game - DEBUG - Loading the configurations...
+2023-02-15 15:33:39,631 - game - DEBUG - Configurations loaded
+2023-02-15 15:33:39,631 - game - DEBUG - Creating the game context.
+2023-02-15 15:33:39,734 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x12268f550>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x103055210, Entity Player at: "(10, 10)" at memory location 0x12266b0d0}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x103055210, Entity Player at: "(10, 10)" at memory location 0x12266b0d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:33:39,734 - game - DEBUG - Creating the root console
+2023-02-15 15:33:39,735 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:33:39,735 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:33:39,735 - game - DEBUG - Starting the game loop...
+2023-02-15 15:33:53,824 - game - DEBUG - ================================================================================
+2023-02-15 15:33:53,824 - game - DEBUG - Initializing the game...
+2023-02-15 15:33:53,824 - game - DEBUG - ================================================================================
+2023-02-15 15:33:53,824 - game - DEBUG - Loading the configurations...
+2023-02-15 15:33:53,825 - game - DEBUG - Configurations loaded
+2023-02-15 15:33:53,825 - game - DEBUG - Creating the game context.
+2023-02-15 15:33:53,935 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x11a2c2bd0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x1046f5810, Entity Player at: "(10, 10)" at memory location 0x119f655d0}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x1046f5810, Entity Player at: "(10, 10)" at memory location 0x119f655d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:33:53,935 - game - DEBUG - Creating the root console
+2023-02-15 15:33:53,935 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:33:53,936 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:33:53,936 - game - DEBUG - Starting the game loop...
+2023-02-15 15:34:22,587 - game - DEBUG - ================================================================================
+2023-02-15 15:34:22,587 - game - DEBUG - Initializing the game...
+2023-02-15 15:34:22,587 - game - DEBUG - ================================================================================
+2023-02-15 15:34:22,587 - game - DEBUG - Loading the configurations...
+2023-02-15 15:34:22,589 - game - DEBUG - Configurations loaded
+2023-02-15 15:34:22,589 - game - DEBUG - Creating the game context.
+2023-02-15 15:34:22,702 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x106708b90>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x102401810, Entity NPC at: "(35, 25)" at memory location 0x102401210}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x102401810, Entity NPC at: "(35, 25)" at memory location 0x102401210}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:34:22,702 - game - DEBUG - Creating the root console
+2023-02-15 15:34:22,702 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:34:22,703 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:34:22,703 - game - DEBUG - Starting the game loop...
+2023-02-15 15:34:40,617 - game - DEBUG - ================================================================================
+2023-02-15 15:34:40,618 - game - DEBUG - Initializing the game...
+2023-02-15 15:34:40,618 - game - DEBUG - ================================================================================
+2023-02-15 15:34:40,618 - game - DEBUG - Loading the configurations...
+2023-02-15 15:34:40,619 - game - DEBUG - Configurations loaded
+2023-02-15 15:34:40,619 - game - DEBUG - Creating the game context.
+2023-02-15 15:34:40,713 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1256c3690>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x125450210, Entity NPC at: "(35, 25)" at memory location 0x12505e7d0}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x125450210, Entity NPC at: "(35, 25)" at memory location 0x12505e7d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:34:40,713 - game - DEBUG - Creating the root console
+2023-02-15 15:34:40,714 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:34:40,714 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:34:40,714 - game - DEBUG - Starting the game loop...
+2023-02-15 15:35:30,780 - game - DEBUG - ================================================================================
+2023-02-15 15:35:30,780 - game - DEBUG - Initializing the game...
+2023-02-15 15:35:30,780 - game - DEBUG - ================================================================================
+2023-02-15 15:35:30,780 - game - DEBUG - Loading the configurations...
+2023-02-15 15:35:30,782 - game - DEBUG - Configurations loaded
+2023-02-15 15:35:30,782 - game - DEBUG - Creating the game context.
+2023-02-15 15:35:30,904 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x102301210>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x11745d510, Entity Player at: "(10, 10)" at memory location 0x114722dd0}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x11745d510, Entity Player at: "(10, 10)" at memory location 0x114722dd0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:35:30,904 - game - DEBUG - Creating the root console
+2023-02-15 15:35:30,905 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:35:30,906 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:35:30,906 - game - DEBUG - Starting the game loop...
+2023-02-15 15:37:10,728 - game - DEBUG - ================================================================================
+2023-02-15 15:37:10,728 - game - DEBUG - Initializing the game...
+2023-02-15 15:37:10,728 - game - DEBUG - ================================================================================
+2023-02-15 15:37:10,728 - game - DEBUG - Loading the configurations...
+2023-02-15 15:37:10,729 - game - DEBUG - Configurations loaded
+2023-02-15 15:37:10,729 - game - DEBUG - Creating the game context.
+2023-02-15 15:37:10,829 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x124de7c90>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x124de6510, Entity NPC at: "(35, 25)" at memory location 0x124de6e10}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x124de6510, Entity NPC at: "(35, 25)" at memory location 0x124de6e10}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:37:10,829 - game - DEBUG - Creating the root console
+2023-02-15 15:37:10,830 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:37:37,696 - game - DEBUG - ================================================================================
+2023-02-15 15:37:37,696 - game - DEBUG - Initializing the game...
+2023-02-15 15:37:37,696 - game - DEBUG - ================================================================================
+2023-02-15 15:37:37,696 - game - DEBUG - Loading the configurations...
+2023-02-15 15:37:37,697 - game - DEBUG - Configurations loaded
+2023-02-15 15:37:37,697 - game - DEBUG - Creating the game context.
+2023-02-15 15:37:37,804 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x119c3d290>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x104945210, Entity Player at: "(10, 10)" at memory location 0x119efc4d0}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x104945210, Entity Player at: "(10, 10)" at memory location 0x119efc4d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:37:37,805 - game - DEBUG - Creating the root console
+2023-02-15 15:37:37,805 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:37:37,806 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:37:37,806 - game - DEBUG - Starting the game loop...
+2023-02-15 15:38:13,611 - game - DEBUG - ================================================================================
+2023-02-15 15:38:13,612 - game - DEBUG - Initializing the game...
+2023-02-15 15:38:13,612 - game - DEBUG - ================================================================================
+2023-02-15 15:38:13,612 - game - DEBUG - Loading the configurations...
+2023-02-15 15:38:13,612 - game - DEBUG - Configurations loaded
+2023-02-15 15:38:13,613 - game - DEBUG - Creating the game context.
+2023-02-15 15:38:13,731 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x120762e50>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x120350e10, Entity NPC at: "(35, 25)" at memory location 0x120760290}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x120350e10, Entity NPC at: "(35, 25)" at memory location 0x120760290}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:38:13,731 - game - DEBUG - Creating the root console
+2023-02-15 15:38:13,732 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:38:13,732 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:38:13,732 - game - DEBUG - Starting the game loop...
+2023-02-15 15:38:37,947 - game - DEBUG - ================================================================================
+2023-02-15 15:38:37,947 - game - DEBUG - Initializing the game...
+2023-02-15 15:38:37,947 - game - DEBUG - ================================================================================
+2023-02-15 15:38:37,947 - game - DEBUG - Loading the configurations...
+2023-02-15 15:38:37,947 - game - DEBUG - Configurations loaded
+2023-02-15 15:38:37,947 - game - DEBUG - Creating the game context.
+2023-02-15 15:38:38,053 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x11c1a8f10>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x104e39210, Entity NPC at: "(35, 25)" at memory location 0x11c05ced0}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x104e39210, Entity NPC at: "(35, 25)" at memory location 0x11c05ced0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:38:38,053 - game - DEBUG - Creating the root console
+2023-02-15 15:38:38,053 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:38:38,054 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:38:38,054 - game - DEBUG - Starting the game loop...
+2023-02-15 15:39:24,407 - game - DEBUG - ================================================================================
+2023-02-15 15:39:24,407 - game - DEBUG - Initializing the game...
+2023-02-15 15:39:24,407 - game - DEBUG - ================================================================================
+2023-02-15 15:39:24,407 - game - DEBUG - Loading the configurations...
+2023-02-15 15:39:24,408 - game - DEBUG - Configurations loaded
+2023-02-15 15:39:24,409 - game - DEBUG - Creating the game context.
+2023-02-15 15:39:24,502 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x115bb13d0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x1150c9850, Entity NPC at: "(35, 25)" at memory location 0x115dd66d0}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x1150c9850, Entity NPC at: "(35, 25)" at memory location 0x115dd66d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:39:24,502 - game - DEBUG - Creating the root console
+2023-02-15 15:39:24,503 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:39:24,503 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:39:24,504 - game - DEBUG - Starting the game loop...
+2023-02-15 15:39:46,598 - game - DEBUG - ================================================================================
+2023-02-15 15:39:46,598 - game - DEBUG - Initializing the game...
+2023-02-15 15:39:46,598 - game - DEBUG - ================================================================================
+2023-02-15 15:39:46,598 - game - DEBUG - Loading the configurations...
+2023-02-15 15:39:46,598 - game - DEBUG - Configurations loaded
+2023-02-15 15:39:46,598 - game - DEBUG - Creating the game context.
+2023-02-15 15:39:46,705 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x128c5a190>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x138b2b910, Entity NPC at: "(35, 25)" at memory location 0x138b2a3d0}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x138b2b910, Entity NPC at: "(35, 25)" at memory location 0x138b2a3d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 15:39:46,705 - game - DEBUG - Creating the root console
+2023-02-15 15:39:46,706 - game - DEBUG - Generating default dungeon...
+2023-02-15 15:39:46,706 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 15:39:46,706 - game - DEBUG - Starting the game loop...
+2023-02-15 16:52:41,209 - game - DEBUG - ================================================================================
+2023-02-15 16:52:41,209 - game - DEBUG - Initializing the game...
+2023-02-15 16:52:41,209 - game - DEBUG - ================================================================================
+2023-02-15 16:52:41,209 - game - DEBUG - Loading the configurations...
+2023-02-15 16:52:41,211 - game - DEBUG - Configurations loaded
+2023-02-15 16:52:41,211 - game - DEBUG - Creating the game context.
+2023-02-15 16:52:41,366 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x111e62890>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x111dc2e10, Entity NPC at: "(35, 25)" at memory location 0x11081df10}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x111dc2e10, Entity NPC at: "(35, 25)" at memory location 0x11081df10}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 16:52:41,366 - game - DEBUG - Creating the root console
+2023-02-15 16:52:41,367 - game - DEBUG - Generating default dungeon...
+2023-02-15 16:52:41,368 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 16:52:41,368 - game - DEBUG - Starting the game loop...
+2023-02-15 16:55:56,227 - game - DEBUG - ================================================================================
+2023-02-15 16:55:56,227 - game - DEBUG - Initializing the game...
+2023-02-15 16:55:56,227 - game - DEBUG - ================================================================================
+2023-02-15 16:55:56,227 - game - DEBUG - Loading the configurations...
+2023-02-15 16:55:56,229 - game - DEBUG - Configurations loaded
+2023-02-15 16:55:56,229 - game - DEBUG - Creating the game context.
+2023-02-15 16:55:56,360 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1048b4cd0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x1048dd210, Entity NPC at: "(35, 25)" at memory location 0x1048dd810}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x1048dd210, Entity NPC at: "(35, 25)" at memory location 0x1048dd810}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 16:55:56,360 - game - DEBUG - Creating the root console
+2023-02-15 16:55:56,360 - game - DEBUG - Generating default dungeon...
+2023-02-15 16:55:56,361 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 16:55:56,361 - game - DEBUG - Starting the game loop...
+2023-02-15 16:57:24,618 - game - DEBUG - ================================================================================
+2023-02-15 16:57:24,618 - game - DEBUG - Initializing the game...
+2023-02-15 16:57:24,618 - game - DEBUG - ================================================================================
+2023-02-15 16:57:24,618 - game - DEBUG - Loading the configurations...
+2023-02-15 16:57:24,620 - game - DEBUG - Configurations loaded
+2023-02-15 16:57:24,620 - game - DEBUG - Creating the game context.
+2023-02-15 16:57:24,752 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1175c3610>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x11722b310, Entity Player at: "(10, 10)" at memory location 0x1175c29d0}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x11722b310, Entity Player at: "(10, 10)" at memory location 0x1175c29d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 16:57:24,752 - game - DEBUG - Creating the root console
+2023-02-15 16:57:24,752 - game - DEBUG - Generating default dungeon...
+2023-02-15 16:57:24,753 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 16:57:24,754 - game - DEBUG - Starting the game loop...
+2023-02-15 17:00:09,281 - game - DEBUG - ================================================================================
+2023-02-15 17:00:09,281 - game - DEBUG - Initializing the game...
+2023-02-15 17:00:09,281 - game - DEBUG - ================================================================================
+2023-02-15 17:00:09,281 - game - DEBUG - Loading the configurations...
+2023-02-15 17:00:31,873 - game - DEBUG - ================================================================================
+2023-02-15 17:00:31,873 - game - DEBUG - Initializing the game...
+2023-02-15 17:00:31,873 - game - DEBUG - ================================================================================
+2023-02-15 17:00:31,873 - game - DEBUG - Loading the configurations...
+2023-02-15 17:00:31,875 - game - DEBUG - Configurations loaded
+2023-02-15 17:00:31,875 - game - DEBUG - Creating the game context.
+2023-02-15 17:00:31,997 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x10efb6490>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x15e0701d0, Entity Player at: "(10, 10)" at memory location 0x15e0704d0}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x15e0701d0, Entity Player at: "(10, 10)" at memory location 0x15e0704d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:00:31,997 - game - DEBUG - Creating the root console
+2023-02-15 17:00:31,998 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:00:31,999 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:00:31,999 - game - DEBUG - Starting the game loop...
+2023-02-15 17:02:08,933 - game - DEBUG - ================================================================================
+2023-02-15 17:02:08,933 - game - DEBUG - Initializing the game...
+2023-02-15 17:02:08,933 - game - DEBUG - ================================================================================
+2023-02-15 17:02:08,933 - game - DEBUG - Loading the configurations...
+2023-02-15 17:02:08,935 - game - DEBUG - Configurations loaded
+2023-02-15 17:02:08,935 - game - DEBUG - Creating the game context.
+2023-02-15 17:02:09,057 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x12449a7d0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x1248cc6d0, Entity Player at: "(10, 10)" at memory location 0x1240717d0}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x1248cc6d0, Entity Player at: "(10, 10)" at memory location 0x1240717d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:02:09,057 - game - DEBUG - Creating the root console
+2023-02-15 17:02:09,057 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:02:09,058 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:02:09,058 - game - DEBUG - Starting the game loop...
+2023-02-15 17:02:28,023 - game - DEBUG - ================================================================================
+2023-02-15 17:02:28,023 - game - DEBUG - Initializing the game...
+2023-02-15 17:02:28,023 - game - DEBUG - ================================================================================
+2023-02-15 17:02:28,023 - game - DEBUG - Loading the configurations...
+2023-02-15 17:02:28,024 - game - DEBUG - Configurations loaded
+2023-02-15 17:02:28,024 - game - DEBUG - Creating the game context.
+2023-02-15 17:02:28,134 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1026b5210>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x11fd7cf90, Entity Player at: "(10, 10)" at memory location 0x11fc3b1d0}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x11fd7cf90, Entity Player at: "(10, 10)" at memory location 0x11fc3b1d0}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:02:28,135 - game - DEBUG - Creating the root console
+2023-02-15 17:02:28,135 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:02:28,136 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:02:28,136 - game - DEBUG - Starting the game loop...
+2023-02-15 17:02:32,224 - game - DEBUG - ================================================================================
+2023-02-15 17:02:32,224 - game - DEBUG - Initializing the game...
+2023-02-15 17:02:32,224 - game - DEBUG - ================================================================================
+2023-02-15 17:02:32,224 - game - DEBUG - Loading the configurations...
+2023-02-15 17:02:32,225 - game - DEBUG - Configurations loaded
+2023-02-15 17:02:32,225 - game - DEBUG - Creating the game context.
+2023-02-15 17:02:32,342 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1051dd210>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x1054a4e10, Entity NPC at: "(35, 25)" at memory location 0x123965010}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x1054a4e10, Entity NPC at: "(35, 25)" at memory location 0x123965010}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:02:32,342 - game - DEBUG - Creating the root console
+2023-02-15 17:02:32,342 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:02:32,343 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:02:32,343 - game - DEBUG - Starting the game loop...
+2023-02-15 17:03:05,909 - game - DEBUG - ================================================================================
+2023-02-15 17:03:05,909 - game - DEBUG - Initializing the game...
+2023-02-15 17:03:05,909 - game - DEBUG - ================================================================================
+2023-02-15 17:03:05,909 - game - DEBUG - Loading the configurations...
+2023-02-15 17:03:05,910 - game - DEBUG - Configurations loaded
+2023-02-15 17:03:05,910 - game - DEBUG - Creating the game context.
+2023-02-15 17:03:06,025 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x126666b50>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x126667290, Entity NPC at: "(35, 25)" at memory location 0x104fed210}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x126667290, Entity NPC at: "(35, 25)" at memory location 0x104fed210}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:03:06,026 - game - DEBUG - Creating the root console
+2023-02-15 17:03:06,026 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:03:06,027 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:03:06,027 - game - DEBUG - Starting the game loop...
+2023-02-15 17:05:19,517 - game - DEBUG - ================================================================================
+2023-02-15 17:05:19,517 - game - DEBUG - Initializing the game...
+2023-02-15 17:05:19,517 - game - DEBUG - ================================================================================
+2023-02-15 17:05:19,517 - game - DEBUG - Loading the configurations...
+2023-02-15 17:05:19,519 - game - DEBUG - Configurations loaded
+2023-02-15 17:05:19,519 - game - DEBUG - Creating the game context.
+2023-02-15 17:05:19,665 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x119576150>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x104a65810, Entity NPC at: "(35, 25)" at memory location 0x104a65210}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x104a65810, Entity NPC at: "(35, 25)" at memory location 0x104a65210}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:05:19,665 - game - DEBUG - Creating the root console
+2023-02-15 17:05:19,665 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:05:19,666 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:05:19,666 - game - DEBUG - Starting the game loop...
+2023-02-15 17:06:06,924 - game - DEBUG - ================================================================================
+2023-02-15 17:06:06,924 - game - DEBUG - Initializing the game...
+2023-02-15 17:06:06,924 - game - DEBUG - ================================================================================
+2023-02-15 17:06:06,924 - game - DEBUG - Loading the configurations...
+2023-02-15 17:06:34,457 - game - DEBUG - ================================================================================
+2023-02-15 17:06:34,458 - game - DEBUG - Initializing the game...
+2023-02-15 17:06:34,458 - game - DEBUG - ================================================================================
+2023-02-15 17:06:34,458 - game - DEBUG - Loading the configurations...
+2023-02-15 17:07:20,398 - game - DEBUG - ================================================================================
+2023-02-15 17:07:20,399 - game - DEBUG - Initializing the game...
+2023-02-15 17:07:20,399 - game - DEBUG - ================================================================================
+2023-02-15 17:07:20,399 - game - DEBUG - Loading the configurations...
+2023-02-15 17:07:56,502 - game - DEBUG - ================================================================================
+2023-02-15 17:07:56,502 - game - DEBUG - Initializing the game...
+2023-02-15 17:07:56,502 - game - DEBUG - ================================================================================
+2023-02-15 17:07:56,502 - game - DEBUG - Loading the configurations...
+2023-02-15 17:07:56,504 - game - DEBUG - Configurations loaded
+2023-02-15 17:07:56,504 - game - DEBUG - Creating the game context.
+2023-02-15 17:07:56,632 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1178c3790>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x117644690, Entity NPC at: "(35, 25)" at memory location 0x1177c6a90}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x117644690, Entity NPC at: "(35, 25)" at memory location 0x1177c6a90}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:07:56,632 - game - DEBUG - Creating the root console
+2023-02-15 17:07:56,632 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:07:56,633 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:07:56,633 - game - DEBUG - Starting the game loop...
+2023-02-15 17:10:01,484 - game - DEBUG - ================================================================================
+2023-02-15 17:10:01,484 - game - DEBUG - Initializing the game...
+2023-02-15 17:10:01,485 - game - DEBUG - ================================================================================
+2023-02-15 17:10:01,485 - game - DEBUG - Loading the configurations...
+2023-02-15 17:10:01,487 - game - DEBUG - Configurations loaded
+2023-02-15 17:10:01,487 - game - DEBUG - Creating the game context.
+2023-02-15 17:10:01,633 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1282d33d0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity NPC at: "(35, 25)" at memory location 0x118d29cd0, Entity Player at: "(10, 10)" at memory location 0x118d98150}
+      engine: Engine(entities={Entity NPC at: "(35, 25)" at memory location 0x118d29cd0, Entity Player at: "(10, 10)" at memory location 0x118d98150}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:10:01,633 - game - DEBUG - Creating the root console
+2023-02-15 17:10:01,633 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:10:01,634 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:10:01,634 - game - DEBUG - Starting the game loop...
+2023-02-15 17:10:29,987 - game - DEBUG - ================================================================================
+2023-02-15 17:10:29,987 - game - DEBUG - Initializing the game...
+2023-02-15 17:10:29,987 - game - DEBUG - ================================================================================
+2023-02-15 17:10:29,987 - game - DEBUG - Loading the configurations...
+2023-02-15 17:10:29,989 - game - DEBUG - Configurations loaded
+2023-02-15 17:10:29,989 - game - DEBUG - Creating the game context.
+2023-02-15 17:10:30,104 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x12e49af50>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+      npc_entity: Entity NPC at: "(35, 25")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x104e90610, Entity NPC at: "(35, 25)" at memory location 0x104ea9210}
+      engine: Engine(entities={Entity Player at: "(10, 10)" at memory location 0x104e90610, Entity NPC at: "(35, 25)" at memory location 0x104ea9210}, event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:10:30,104 - game - DEBUG - Creating the root console
+2023-02-15 17:10:30,104 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:10:30,105 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:10:30,106 - game - DEBUG - Starting the game loop...
+2023-02-15 17:14:26,515 - game - DEBUG - ================================================================================
+2023-02-15 17:14:26,515 - game - DEBUG - Initializing the game...
+2023-02-15 17:14:26,515 - game - DEBUG - ================================================================================
+2023-02-15 17:14:26,515 - game - DEBUG - Loading the configurations...
+2023-02-15 17:15:21,442 - game - DEBUG - ================================================================================
+2023-02-15 17:15:21,442 - game - DEBUG - Initializing the game...
+2023-02-15 17:15:21,442 - game - DEBUG - ================================================================================
+2023-02-15 17:15:21,442 - game - DEBUG - Loading the configurations...
+2023-02-15 17:15:37,445 - game - DEBUG - ================================================================================
+2023-02-15 17:15:37,445 - game - DEBUG - Initializing the game...
+2023-02-15 17:15:37,445 - game - DEBUG - ================================================================================
+2023-02-15 17:15:37,445 - game - DEBUG - Loading the configurations...
+2023-02-15 17:15:56,399 - game - DEBUG - ================================================================================
+2023-02-15 17:15:56,399 - game - DEBUG - Initializing the game...
+2023-02-15 17:15:56,399 - game - DEBUG - ================================================================================
+2023-02-15 17:15:56,399 - game - DEBUG - Loading the configurations...
+2023-02-15 17:16:14,568 - game - DEBUG - ================================================================================
+2023-02-15 17:16:14,569 - game - DEBUG - Initializing the game...
+2023-02-15 17:16:14,569 - game - DEBUG - ================================================================================
+2023-02-15 17:16:14,569 - game - DEBUG - Loading the configurations...
+2023-02-15 17:16:14,571 - game - DEBUG - Configurations loaded
+2023-02-15 17:16:14,571 - game - DEBUG - Creating the game context.
+2023-02-15 17:16:21,154 - game - DEBUG - ================================================================================
+2023-02-15 17:16:21,154 - game - DEBUG - Initializing the game...
+2023-02-15 17:16:21,155 - game - DEBUG - ================================================================================
+2023-02-15 17:16:21,155 - game - DEBUG - Loading the configurations...
+2023-02-15 17:16:21,155 - game - DEBUG - Configurations loaded
+2023-02-15 17:16:21,155 - game - DEBUG - Creating the game context.
+2023-02-15 17:16:33,976 - game - DEBUG - ================================================================================
+2023-02-15 17:16:33,976 - game - DEBUG - Initializing the game...
+2023-02-15 17:16:33,976 - game - DEBUG - ================================================================================
+2023-02-15 17:16:33,976 - game - DEBUG - Loading the configurations...
+2023-02-15 17:16:33,977 - game - DEBUG - Configurations loaded
+2023-02-15 17:16:33,977 - game - DEBUG - Creating the game context.
+2023-02-15 17:16:34,089 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1118b4590>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x1172c9b10}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:16:34,089 - game - DEBUG - Creating the root console
+2023-02-15 17:16:34,089 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:16:34,090 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:16:34,090 - game - DEBUG - Starting the game loop...
+2023-02-15 17:18:06,096 - game - DEBUG - ================================================================================
+2023-02-15 17:18:06,097 - game - DEBUG - Initializing the game...
+2023-02-15 17:18:06,097 - game - DEBUG - ================================================================================
+2023-02-15 17:18:06,097 - game - DEBUG - Loading the configurations...
+2023-02-15 17:18:06,099 - game - DEBUG - Configurations loaded
+2023-02-15 17:18:06,099 - game - DEBUG - Creating the game context.
+2023-02-15 17:18:06,216 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1009ec710>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x1164503d0}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:18:06,216 - game - DEBUG - Creating the root console
+2023-02-15 17:18:06,216 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:18:06,217 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:18:06,218 - game - DEBUG - Starting the game loop...
+2023-02-15 17:18:46,989 - game - DEBUG - ================================================================================
+2023-02-15 17:18:46,989 - game - DEBUG - Initializing the game...
+2023-02-15 17:18:46,989 - game - DEBUG - ================================================================================
+2023-02-15 17:18:46,989 - game - DEBUG - Loading the configurations...
+2023-02-15 17:18:46,991 - game - DEBUG - Configurations loaded
+2023-02-15 17:18:46,991 - game - DEBUG - Creating the game context.
+2023-02-15 17:18:47,122 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x11aa69650>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x116574f10}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:18:47,122 - game - DEBUG - Creating the root console
+2023-02-15 17:18:47,122 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:18:47,123 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:18:47,123 - game - DEBUG - Starting the game loop...
+2023-02-15 17:19:07,486 - game - DEBUG - ================================================================================
+2023-02-15 17:19:07,486 - game - DEBUG - Initializing the game...
+2023-02-15 17:19:07,486 - game - DEBUG - ================================================================================
+2023-02-15 17:19:07,487 - game - DEBUG - Loading the configurations...
+2023-02-15 17:19:07,488 - game - DEBUG - Configurations loaded
+2023-02-15 17:19:07,488 - game - DEBUG - Creating the game context.
+2023-02-15 17:19:07,607 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x117bd1bd0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x117bd0e50}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:19:07,608 - game - DEBUG - Creating the root console
+2023-02-15 17:19:07,608 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:19:07,609 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:19:07,609 - game - DEBUG - Starting the game loop...
+2023-02-15 17:21:34,874 - game - DEBUG - ================================================================================
+2023-02-15 17:21:34,874 - game - DEBUG - Initializing the game...
+2023-02-15 17:21:34,874 - game - DEBUG - ================================================================================
+2023-02-15 17:21:34,874 - game - DEBUG - Loading the configurations...
+2023-02-15 17:21:34,876 - game - DEBUG - Configurations loaded
+2023-02-15 17:21:34,876 - game - DEBUG - Creating the game context.
+2023-02-15 17:21:35,009 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x12e484850>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x102581810}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:21:35,009 - game - DEBUG - Creating the root console
+2023-02-15 17:21:35,009 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:21:35,011 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:21:35,011 - game - DEBUG - Starting the game loop...
+2023-02-15 17:22:00,970 - game - DEBUG - ================================================================================
+2023-02-15 17:22:00,970 - game - DEBUG - Initializing the game...
+2023-02-15 17:22:00,970 - game - DEBUG - ================================================================================
+2023-02-15 17:22:00,970 - game - DEBUG - Loading the configurations...
+2023-02-15 17:22:00,971 - game - DEBUG - Configurations loaded
+2023-02-15 17:22:00,971 - game - DEBUG - Creating the game context.
+2023-02-15 17:22:01,084 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x11f96ebd0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x11fd67f50}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:22:01,085 - game - DEBUG - Creating the root console
+2023-02-15 17:22:01,085 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:22:01,086 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:22:01,086 - game - DEBUG - Starting the game loop...
+2023-02-15 17:23:01,345 - game - DEBUG - ================================================================================
+2023-02-15 17:23:01,345 - game - DEBUG - Initializing the game...
+2023-02-15 17:23:01,345 - game - DEBUG - ================================================================================
+2023-02-15 17:23:01,345 - game - DEBUG - Loading the configurations...
+2023-02-15 17:23:01,348 - game - DEBUG - Configurations loaded
+2023-02-15 17:23:01,348 - game - DEBUG - Creating the game context.
+2023-02-15 17:23:01,473 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x115ad29d0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x115ad3ad0}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:23:01,474 - game - DEBUG - Creating the root console
+2023-02-15 17:23:01,474 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:23:01,475 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:23:01,475 - game - DEBUG - Starting the game loop...
+2023-02-15 17:23:51,278 - game - DEBUG - ================================================================================
+2023-02-15 17:23:51,278 - game - DEBUG - Initializing the game...
+2023-02-15 17:23:51,278 - game - DEBUG - ================================================================================
+2023-02-15 17:23:51,278 - game - DEBUG - Loading the configurations...
+2023-02-15 17:23:51,280 - game - DEBUG - Configurations loaded
+2023-02-15 17:23:51,280 - game - DEBUG - Creating the game context.
+2023-02-15 17:23:51,409 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x117b6d950>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x1042fd210}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:23:51,409 - game - DEBUG - Creating the root console
+2023-02-15 17:23:51,409 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:23:51,410 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:23:51,410 - game - DEBUG - Starting the game loop...
+2023-02-15 17:33:47,896 - game - DEBUG - ================================================================================
+2023-02-15 17:33:47,897 - game - DEBUG - Initializing the game...
+2023-02-15 17:33:47,897 - game - DEBUG - ================================================================================
+2023-02-15 17:33:47,897 - game - DEBUG - Loading the configurations...
+2023-02-15 17:33:47,899 - game - DEBUG - Configurations loaded
+2023-02-15 17:33:47,899 - game - DEBUG - Creating the game context.
+2023-02-15 17:33:48,029 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x102a2d210>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x102a2d810}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:33:48,029 - game - DEBUG - Creating the root console
+2023-02-15 17:33:48,029 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:34:55,757 - game - DEBUG - ================================================================================
+2023-02-15 17:34:55,757 - game - DEBUG - Initializing the game...
+2023-02-15 17:34:55,757 - game - DEBUG - ================================================================================
+2023-02-15 17:34:55,757 - game - DEBUG - Loading the configurations...
+2023-02-15 17:34:55,758 - game - DEBUG - Configurations loaded
+2023-02-15 17:34:55,758 - game - DEBUG - Creating the game context.
+2023-02-15 17:34:55,865 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x113ab6cd0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x113f9a450}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:34:55,865 - game - DEBUG - Creating the root console
+2023-02-15 17:34:55,865 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:35:39,973 - game - DEBUG - ================================================================================
+2023-02-15 17:35:39,973 - game - DEBUG - Initializing the game...
+2023-02-15 17:35:39,973 - game - DEBUG - ================================================================================
+2023-02-15 17:35:39,973 - game - DEBUG - Loading the configurations...
+2023-02-15 17:35:39,975 - game - DEBUG - Configurations loaded
+2023-02-15 17:35:39,975 - game - DEBUG - Creating the game context.
+2023-02-15 17:35:40,098 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1245bec50>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x125500150}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:35:40,098 - game - DEBUG - Creating the root console
+2023-02-15 17:35:40,098 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:37:35,103 - game - DEBUG - ================================================================================
+2023-02-15 17:37:35,103 - game - DEBUG - Initializing the game...
+2023-02-15 17:37:35,103 - game - DEBUG - ================================================================================
+2023-02-15 17:37:35,103 - game - DEBUG - Loading the configurations...
+2023-02-15 17:37:35,105 - game - DEBUG - Configurations loaded
+2023-02-15 17:37:35,105 - game - DEBUG - Creating the game context.
+2023-02-15 17:37:35,227 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x118fd38d0>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x118fd3b10}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:37:35,227 - game - DEBUG - Creating the root console
+2023-02-15 17:37:35,227 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:37:35,229 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:37:35,229 - game - DEBUG - Starting the game loop...
+2023-02-15 17:39:49,655 - game - DEBUG - ================================================================================
+2023-02-15 17:39:49,655 - game - DEBUG - Initializing the game...
+2023-02-15 17:39:49,655 - game - DEBUG - ================================================================================
+2023-02-15 17:39:49,655 - game - DEBUG - Loading the configurations...
+2023-02-15 17:39:49,657 - game - DEBUG - Configurations loaded
+2023-02-15 17:39:49,657 - game - DEBUG - Creating the game context.
+2023-02-15 17:39:49,780 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x100615810>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x100615210}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:39:49,780 - game - DEBUG - Creating the root console
+2023-02-15 17:39:49,780 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:39:49,781 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:39:49,781 - game - DEBUG - Starting the game loop...
+2023-02-15 17:39:59,956 - game - DEBUG - ================================================================================
+2023-02-15 17:39:59,956 - game - DEBUG - Initializing the game...
+2023-02-15 17:39:59,956 - game - DEBUG - ================================================================================
+2023-02-15 17:39:59,956 - game - DEBUG - Loading the configurations...
+2023-02-15 17:39:59,959 - game - DEBUG - Configurations loaded
+2023-02-15 17:39:59,959 - game - DEBUG - Creating the game context.
+2023-02-15 17:40:00,093 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x11a4b6050>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x119d30910}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:40:00,094 - game - DEBUG - Creating the root console
+2023-02-15 17:40:00,094 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:40:00,098 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:40:00,098 - game - DEBUG - Starting the game loop...
+2023-02-15 17:40:40,233 - game - DEBUG - ================================================================================
+2023-02-15 17:40:40,234 - game - DEBUG - Initializing the game...
+2023-02-15 17:40:40,234 - game - DEBUG - ================================================================================
+2023-02-15 17:40:40,234 - game - DEBUG - Loading the configurations...
+2023-02-15 17:40:40,235 - game - DEBUG - Configurations loaded
+2023-02-15 17:40:40,235 - game - DEBUG - Creating the game context.
+2023-02-15 17:40:40,352 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1144f6110>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x101846290}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:40:40,353 - game - DEBUG - Creating the root console
+2023-02-15 17:40:40,353 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:40:40,357 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:40:40,357 - game - DEBUG - Starting the game loop...
+2023-02-15 17:41:17,765 - game - DEBUG - ================================================================================
+2023-02-15 17:41:17,765 - game - DEBUG - Initializing the game...
+2023-02-15 17:41:17,765 - game - DEBUG - ================================================================================
+2023-02-15 17:41:17,765 - game - DEBUG - Loading the configurations...
+2023-02-15 17:41:17,766 - game - DEBUG - Configurations loaded
+2023-02-15 17:41:17,766 - game - DEBUG - Creating the game context.
+2023-02-15 17:41:17,882 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x12364d910>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x12364f350}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:41:17,882 - game - DEBUG - Creating the root console
+2023-02-15 17:41:17,882 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:41:17,885 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:41:17,885 - game - DEBUG - Starting the game loop...
+2023-02-15 17:42:55,840 - game - DEBUG - ================================================================================
+2023-02-15 17:42:55,840 - game - DEBUG - Initializing the game...
+2023-02-15 17:42:55,841 - game - DEBUG - ================================================================================
+2023-02-15 17:42:55,841 - game - DEBUG - Loading the configurations...
+2023-02-15 17:42:55,843 - game - DEBUG - Configurations loaded
+2023-02-15 17:42:55,843 - game - DEBUG - Creating the game context.
+2023-02-15 17:42:55,975 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x110c23a10>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x110c70c90}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:42:55,975 - game - DEBUG - Creating the root console
+2023-02-15 17:42:55,976 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:42:55,979 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:42:55,979 - game - DEBUG - Starting the game loop...
+2023-02-15 17:44:37,772 - game - DEBUG - ================================================================================
+2023-02-15 17:44:37,773 - game - DEBUG - Initializing the game...
+2023-02-15 17:44:37,773 - game - DEBUG - ================================================================================
+2023-02-15 17:44:37,773 - game - DEBUG - Loading the configurations...
+2023-02-15 17:44:37,774 - game - DEBUG - Configurations loaded
+2023-02-15 17:44:37,774 - game - DEBUG - Creating the game context.
+2023-02-15 17:44:37,887 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x105f9f410>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x105f99d10}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:44:37,887 - game - DEBUG - Creating the root console
+2023-02-15 17:44:37,887 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:44:37,891 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:44:37,891 - game - DEBUG - Starting the game loop...
+2023-02-15 17:46:05,762 - game - DEBUG - ================================================================================
+2023-02-15 17:46:05,762 - game - DEBUG - Initializing the game...
+2023-02-15 17:46:05,762 - game - DEBUG - ================================================================================
+2023-02-15 17:46:05,762 - game - DEBUG - Loading the configurations...
+2023-02-15 17:46:05,764 - game - DEBUG - Configurations loaded
+2023-02-15 17:46:05,764 - game - DEBUG - Creating the game context.
+2023-02-15 17:46:05,893 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x115330550>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x11534b0d0}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:46:05,894 - game - DEBUG - Creating the root console
+2023-02-15 17:46:05,894 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:46:05,898 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:46:05,898 - game - DEBUG - Starting the game loop...
+2023-02-15 17:46:13,264 - game - DEBUG - ================================================================================
+2023-02-15 17:46:13,264 - game - DEBUG - Initializing the game...
+2023-02-15 17:46:13,264 - game - DEBUG - ================================================================================
+2023-02-15 17:46:13,264 - game - DEBUG - Loading the configurations...
+2023-02-15 17:46:13,265 - game - DEBUG - Configurations loaded
+2023-02-15 17:46:13,265 - game - DEBUG - Creating the game context.
+2023-02-15 17:46:13,377 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x104b0da90>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 5
+      default_max_rooms: 50
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x10234d210}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:46:13,377 - game - DEBUG - Creating the root console
+2023-02-15 17:46:13,377 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:46:13,378 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:46:13,378 - game - DEBUG - Starting the game loop...
+2023-02-15 17:47:10,102 - game - DEBUG - ================================================================================
+2023-02-15 17:47:10,102 - game - DEBUG - Initializing the game...
+2023-02-15 17:47:10,102 - game - DEBUG - ================================================================================
+2023-02-15 17:47:10,102 - game - DEBUG - Loading the configurations...
+2023-02-15 17:47:10,103 - game - DEBUG - Configurations loaded
+2023-02-15 17:47:10,104 - game - DEBUG - Creating the game context.
+2023-02-15 17:47:10,222 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x115036a50>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 10
+      default_max_rooms: 20
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x1152cce90}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-15 17:47:10,222 - game - DEBUG - Creating the root console
+2023-02-15 17:47:10,222 - game - DEBUG - Generating default dungeon...
+2023-02-15 17:47:10,223 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-15 17:47:10,223 - game - DEBUG - Starting the game loop...
+2023-02-16 19:27:45,918 - game - DEBUG - ================================================================================
+2023-02-16 19:27:45,918 - game - DEBUG - Initializing the game...
+2023-02-16 19:27:45,918 - game - DEBUG - ================================================================================
+2023-02-16 19:27:45,918 - game - DEBUG - Loading the configurations...
+2023-02-16 19:27:45,920 - game - DEBUG - Configurations loaded
+2023-02-16 19:27:45,920 - game - DEBUG - Creating the game context.
+2023-02-16 19:27:46,069 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x1178c7850>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 10
+      default_max_rooms: 20
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x138769910}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-16 19:27:46,069 - game - DEBUG - Creating the root console
+2023-02-16 19:27:46,070 - game - DEBUG - Generating default dungeon...
+2023-02-16 19:27:46,070 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-16 19:27:46,070 - game - DEBUG - Starting the game loop...
+2023-02-20 12:56:02,405 - game - DEBUG - ================================================================================
+2023-02-20 12:56:02,405 - game - DEBUG - Initializing the game...
+2023-02-20 12:56:02,406 - game - DEBUG - ================================================================================
+2023-02-20 12:56:02,406 - game - DEBUG - Loading the configurations...
+2023-02-20 12:56:02,409 - game - DEBUG - Configurations loaded
+2023-02-20 12:56:02,409 - game - DEBUG - Creating the game context.
+2023-02-20 12:56:02,553 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x104bf5250>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 10
+      default_max_rooms: 20
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x114f6be90}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-20 12:56:02,553 - game - DEBUG - Creating the root console
+2023-02-20 12:56:02,553 - game - DEBUG - Generating default dungeon...
+2023-02-20 12:56:02,555 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-20 12:56:02,555 - game - DEBUG - Starting the game loop...
+2023-02-20 12:58:24,505 - game - DEBUG - ================================================================================
+2023-02-20 12:58:24,505 - game - DEBUG - Initializing the game...
+2023-02-20 12:58:24,505 - game - DEBUG - ================================================================================
+2023-02-20 12:58:24,505 - game - DEBUG - Loading the configurations...
+2023-02-20 12:58:24,507 - game - DEBUG - Configurations loaded
+2023-02-20 12:58:24,507 - game - DEBUG - Creating the game context.
+2023-02-20 12:58:24,637 - game - DEBUG - Game context created with the following configurations: Configurations(
+    Screen parameters:
+      tileset: <tcod.tileset.Tileset object at 0x119f78590>
+      screen_width: 80
+      screen_height: 50
+      lower_margin: 10
+    Game map parameters:
+      map_width: 80
+      map_height: 40
+      default_room_min_size: 5
+      default_room_max_size: 10
+      default_max_rooms: 20
+    Player and NPC entities:
+      player_entity: Entity Player at: "(10, 10")
+    Event handler and engine:
+      event_handler: EventHandler
+      game_map: GameMap with width 80 and height 40
+      entities: {Entity Player at: "(10, 10)" at memory location 0x119ed7e90}
+      engine: Engine(event_handler=EventHandler, game_map=GameMap with width 80 and height 40, player=Entity Player at: "(10, 10"))
+    Game window parameters:
+      vsync: True
+      flags: 32
+      title: Sidith's Roguelike
+)
+
+
+2023-02-20 12:58:24,637 - game - DEBUG - Creating the root console
+2023-02-20 12:58:24,637 - game - DEBUG - Generating default dungeon...
+2023-02-20 12:58:24,638 - game - DEBUG - Dungeon generated with the following map:
+GameMap with width 80 and height 40
+
+
+2023-02-20 12:58:24,638 - game - DEBUG - Starting the game loop...

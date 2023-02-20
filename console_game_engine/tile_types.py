@@ -1,6 +1,6 @@
 from typing import Tuple
 import numpy as np
-from colors import colors
+from console_game_engine.colors import colors
 
 graphic_dt = np.dtype(
     [

@@ -2,7 +2,7 @@ from typing import Optional
 
 import tcod.event
 
-from actions import Action, EscapeAction, MovementAction
+from console_game_engine.actions import Action, EscapeAction, MovementAction
 
 MOVE_KEYS = {
     # num keys

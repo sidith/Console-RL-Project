@@ -5,10 +5,10 @@ from tcod.console import Console
 from tcod.context import Context
 from tcod.map import compute_fov
 
-import procedual_gen
-from entity import Entity, Transform
-from game_map import GameMap
-from input_handlers import EventHandler
+import procedural_generator.procedual_gen as procedual_gen
+from console_game_engine.entity import Entity, Transform
+from console_game_engine.game_map import GameMap
+from console_game_engine.input_handlers import EventHandler
 
 
 class Engine:

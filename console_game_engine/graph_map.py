@@ -2,8 +2,8 @@
 import random
 from dataclasses import dataclass
 
-from procedual_gen import (RectangularRoom,
-                           create_horizontal_and_verticle_tunnel)
+from procedural_generator.procedual_gen import (RectangularRoom,
+                                                create_horizontal_and_verticle_tunnel)
 
 
 @dataclass()

@@ -2,7 +2,7 @@ import random
 
 from typing import Tuple
 
-from entity import Transform
+from console_game_engine.entity import Transform
 
 
 # This file contains the code for generating the rooms and tunnels for the dungeon

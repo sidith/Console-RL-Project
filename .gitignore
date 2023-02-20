@@ -4,5 +4,8 @@ __pycache__/
 # Ignore virtual environment
 myenv/
 
-# Ignore log
-game.log
+# Ignore logs
+logs/
+
+# Ignore Test Script
+test.py

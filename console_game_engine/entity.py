@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Tuple
 
-from colors import RGB_Color
+from console_game_engine.colors import RGB_Color
 
 
 @dataclass

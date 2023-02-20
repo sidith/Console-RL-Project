@@ -1,12 +1,13 @@
 from turtle import color
 from typing import Optional
+
 import tcod
 
-from colors import colors
-from engine import Engine
-from entity import Entity
-from game_map import GameMap
-from input_handlers import EventHandler
+from console_game_engine.colors import colors
+from console_game_engine.engine import Engine
+from console_game_engine.entity import Entity
+from console_game_engine.game_map import GameMap
+from console_game_engine.input_handlers import EventHandler
 
 
 class Configurations:
@@ -14,7 +15,7 @@ class Configurations:
 
     def __init__(
         self,
-        tileset_path: str = "dejavu10x10_gs_tc.png",
+        tileset_path: str = "rsrc/dejavu10x10_gs_tc.png",
         screen_width: int = 80,
         screen_height: int = 50,
         lower_margin: int = 10,

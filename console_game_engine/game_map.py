@@ -8,9 +8,9 @@ from typing import TYPE_CHECKING, Iterable
 import numpy as np
 from tcod.console import Console
 
-import tile_types
-from entity import Entity, Transform
-from room_generation import RectangularRoom
+import console_game_engine.tile_types as tile_types
+from console_game_engine.entity import Entity, Transform
+from procedural_generator.room_generation import RectangularRoom
 
 
 class GameMap:

@@ -1,19 +1,15 @@
 # procedual_gen.py
-from html import entities
-import math
-from distutils.log import debug
 from optparse import Option
 import random
 from typing import Tuple
-from entity import Entity
-from game_map import GameMap
-import tile_types
+from console_game_engine.entity import Entity
+from console_game_engine.game_map import GameMap
 import logging
-from room_generation import RectangularRoom, RoomGenerator
-from colors import colors
+from procedural_generator.room_generation import RectangularRoom, RoomGenerator
+from console_game_engine.colors import colors
 
 # This function generates a room that is centered on the player
-logging.basicConfig(filename='proc_gen.log', level=logging.DEBUG,
+logging.basicConfig(filename='logs/proc_gen.log', level=logging.DEBUG,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 

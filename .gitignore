@@ -1,1 +1,8 @@
-/__pycache__
+# Ignore Python cache directories
+__pycache__/
+
+# Ignore virtual environment
+myenv/
+
+# Ignore log
+game.log

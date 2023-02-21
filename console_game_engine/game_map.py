@@ -19,8 +19,6 @@ if TYPE_CHECKING:
 
 class GameMap:
 
-    # This is a flag that is used to turn on and off the bechmarking, not sure if this is the best way to do it, but it is my current strategy
-    run_benchmarks = True
 
     def __init__(self, width: int, height: int, entities: Iterable[Entity]) -> None:
         """

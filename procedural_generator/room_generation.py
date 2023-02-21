@@ -1,5 +1,6 @@
 # room_generation.py
 import random
+from venv import create
 
 
 # This file contains the code for generating the rooms and tunnels for the dungeon
@@ -69,7 +70,7 @@ class RoomGenerator:
             return tunnels
 
         # This loop works by taking the first room in the list and connecting it to the second room in the list. Then it takes the second room in the list and connects it to the third room in the list. It does this until it reaches the last room in the list. Then it takes the last room in the list and connects it to the first room in the list. This creates a loop of tunnels.
-        for room1, room2 in zip(rooms, rooms[1:] + [rooms[0]]):
+        for room1, room2 in zip(rooms, rooms[1:]):
             tunnel_pair = self.create_horizontal_and_verticle_tunnel(
                 room1, room2, tunnel_width)
             tunnels.append(tunnel_pair[0])
@@ -89,7 +90,7 @@ class RoomGenerator:
         return [horizontal_tunnel, vertical_tunnel]
 
     # This function generates the rooms
-    def generate_rooms(self, map_width: int, map_height: int, max_rooms: int, room_min_size: int, room_max_size: int, player_transform: tuple) -> list[RectangularRoom]:
+    def generate_rooms(self, map_width: int, map_height: int, max_rooms: int, room_min_size: int, room_max_size: int, player_transform: tuple[int, int]) -> list[RectangularRoom]:
         new_rooms = []
 
         spawn_room = self.create_spawn_room(player_transform)
@@ -107,8 +108,6 @@ class RoomGenerator:
                 continue
             else:
                 new_rooms.append(new_room)
-
-        room_str = '\n'.join(map(str, new_rooms))
 
         return new_rooms
 

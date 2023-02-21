@@ -3,6 +3,8 @@ from time import perf_counter
 
 import yaml
 
+# TODO consolidate all of the logging code like this to one place
+
 
 def setup_benchmark_logging():
     with open('logging.yaml', 'r') as f:
@@ -12,6 +14,8 @@ def setup_benchmark_logging():
 
 
 benchmark_logger = setup_benchmark_logging()
+
+# TODO readd a bool that will allow the benchmarking to be turned off
 
 
 def benchmark(func):

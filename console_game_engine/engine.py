@@ -67,7 +67,7 @@ class Engine:
     @benchmark
     def generate_dungeon(self, max_rooms: int, min_room_size: int, max_room_size: int):
         procedural_gen.generate_dungeon(
-            self.game_map, max_rooms, min_room_size, max_room_size, self.player.transform)
+            self.game_map, max_rooms, min_room_size, max_room_size, self.player)
 
     def __str__(self) -> str:
         return f'Engine(event_handler={self.event_handler}, game_map={self.game_map}, player={self.player})'

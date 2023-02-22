@@ -11,7 +11,8 @@ class DelaunayMST:
     def __init__(self, points: List[Tuple[int, int]]) -> None:
         if len(points) < 3:
             raise ValueError(
-                "At least three points are required to compute Delaunay triangulation.")
+                "At least three points are required to compute Delaunay triangulation."
+            )
         self.points = points
         self.triangulation = self._compute_edges_from_delaunay_triangulation()
         self.num_points = len(self.points)
@@ -27,15 +28,16 @@ class DelaunayMST:
         edges = set()
         for simplex in tri.simplices:
             for i in range(3):
-                for j in range(i+1, 3):
+                for j in range(i + 1, 3):
                     edges.add((simplex[i], simplex[j]))
         return list(edges)
 
     def _compute_minimum_spanning_tree_from_edges(self) -> List[Tuple[int, int]]:
         if len(self.triangulation) < self.num_points - 1:
             raise ValueError(
-                "Not enough edges in the Delaunay triangulation to construct an MST.")
-        edges = sorted(self.triangulation, key=lambda e: ((e[0]-e[1])**2)**0.5)
+                "Not enough edges in the Delaunay triangulation to construct an MST."
+            )
+        edges = sorted(self.triangulation, key=lambda e: ((e[0] - e[1]) ** 2) ** 0.5)
         sets = [{i} for i in range(self.num_points)]
         mst = []
         for edge in edges:
@@ -49,13 +51,14 @@ class DelaunayMST:
 
     def _find_longest_path(self) -> Tuple[List[Tuple[int, int]], float]:
         if len(self.mst) < self.num_points - 1:
-            raise ValueError(
-                "Not enough edges in the tree to find a longest path.")
+            raise ValueError("Not enough edges in the tree to find a longest path.")
 
         G = nx.DiGraph()
         for u, v in self.mst:
-            dist = np.sqrt((self.points[u][0] - self.points[v][0])
-                           ** 2 + (self.points[u][1] - self.points[v][1]) ** 2)
+            dist = np.sqrt(
+                (self.points[u][0] - self.points[v][0]) ** 2
+                + (self.points[u][1] - self.points[v][1]) ** 2
+            )
             G.add_edge(u, v, weight=dist)
             G.add_edge(v, u, weight=dist)
 
@@ -66,11 +69,13 @@ class DelaunayMST:
         for u, u_paths in paths.items():
             for v, path in u_paths.items():
                 if u != v:
-                    path_length = sum(G[path[i]][path[i+1]]['weight']
-                                      for i in range(len(path)-1))
+                    path_length = sum(
+                        G[path[i]][path[i + 1]]["weight"] for i in range(len(path) - 1)
+                    )
                     if path_length > length:
-                        longest_path = [(path[i], path[i+1])
-                                        for i in range(len(path)-1)]
+                        longest_path = [
+                            (path[i], path[i + 1]) for i in range(len(path) - 1)
+                        ]
                         length = path_length
 
         return longest_path, length
@@ -80,18 +85,26 @@ class DelaunayMST:
         return points_of_longest_path
 
     def _find_points_of_interest(self) -> List[int]:
-        points_of_interest = [point for point in self.points_of_longest_path if any(
-            edge[0] == point and edge[1] not in self.points_of_longest_path
-            or
-            edge[1] == point and edge[0] not in self.points_of_longest_path
-            for edge in self.mst)]
+        points_of_interest = [
+            point
+            for point in self.points_of_longest_path
+            if any(
+                edge[0] == point
+                and edge[1] not in self.points_of_longest_path
+                or edge[1] == point
+                and edge[0] not in self.points_of_longest_path
+                for edge in self.mst
+            )
+        ]
 
         return points_of_interest
 
 
-def plot_triangulation_mst_longest_path(points, triangulation, mst, longest_path, points_of_interest):
+def plot_triangulation_mst_longest_path(
+    points, triangulation, mst, longest_path, points_of_interest
+):
     # create scatter plot of input points
-    plt.scatter([p[0] for p in points], [p[1] for p in points], color='black')
+    plt.scatter([p[0] for p in points], [p[1] for p in points], color="black")
 
     # # plot edges of triangulation in blue
     # for edge in triangulation:
@@ -102,21 +115,27 @@ def plot_triangulation_mst_longest_path(points, triangulation, mst, longest_path
     # plot edges of MST in green
     for edge in mst:
         u, v = edge
-        plt.plot([points[u][0], points[v][0]], [
-                 points[u][1], points[v][1]], color='green')
+        plt.plot(
+            [points[u][0], points[v][0]], [points[u][1], points[v][1]], color="green"
+        )
 
     # plot edges of longest path in red
     for edge in longest_path:
         u, v = edge
-        plt.plot([points[u][0], points[v][0]], [
-                 points[u][1], points[v][1]], color='red')
+        plt.plot(
+            [points[u][0], points[v][0]], [points[u][1], points[v][1]], color="red"
+        )
     # plot the first and last points of the longest path in pink and make them larger than the other points
-    plt.scatter([points[longest_path[0][0]][0], points[longest_path[-1][1]][0]], [
-                points[longest_path[0][0]][1], points[longest_path[-1][1]][1]], color='pink', s=100)
+    plt.scatter(
+        [points[longest_path[0][0]][0], points[longest_path[-1][1]][0]],
+        [points[longest_path[0][0]][1], points[longest_path[-1][1]][1]],
+        color="pink",
+        s=100,
+    )
 
     # plot points of interest in yellow
     for point in points_of_interest:
-        plt.scatter([points[point][0]], [points[point][1]], color='yellow')
+        plt.scatter([points[point][0]], [points[point][1]], color="yellow")
 
     # set axis limits and show plot
 
@@ -132,14 +151,19 @@ def generate_random_points(num_of_points, min_dist, scale):
     while len(points) < num_of_points:
         x = random.randint(0, scale)
         y = random.randint(0, scale)
-        if all(((x - p[0])**2 + (y - p[1])**2)**0.5 >= min_dist for p in points) and x > min_dist and x < scale - min_dist and y > min_dist and y < scale - min_dist:
+        if (
+            all(((x - p[0]) ** 2 + (y - p[1]) ** 2) ** 0.5 >= min_dist for p in points)
+            and x > min_dist
+            and x < scale - min_dist
+            and y > min_dist
+            and y < scale - min_dist
+        ):
             points.append((x, y))
 
     return points
 
 
 def test():
-
     points = generate_random_points(20, 2, 100)
 
     delaunayMST = DelaunayMST(points)
@@ -157,7 +181,8 @@ def test():
 
     # plot triangulation, MST, and longest path
     plot_triangulation_mst_longest_path(
-        points, triangulation, mst, longest_path, points_of_interest)
+        points, triangulation, mst, longest_path, points_of_interest
+    )
 
     print("Longest path length:", length)
 

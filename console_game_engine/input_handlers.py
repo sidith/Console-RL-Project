@@ -10,17 +10,15 @@ MOVE_KEYS = {
     tcod.event.K_DOWN: (0, 1),
     tcod.event.K_LEFT: (-1, 0),
     tcod.event.K_RIGHT: (1, 0),
-
     # WASD keys
     tcod.event.K_w: (0, -1),
     tcod.event.K_s: (0, 1),
     tcod.event.K_a: (-1, 0),
-    tcod.event.K_d: (1, 0)
+    tcod.event.K_d: (1, 0),
 }
 
 
 class EventHandler(tcod.event.EventDispatch[Action]):
-
     def ev_quit(self, event: tcod.event.Quit) -> Optional[Action]:
         raise SystemExit()
 

@@ -21,14 +21,16 @@ class Transform:
 
 
 class Entity:
-    def __init__(self,
-                 name: str = '<Unnamed>',
-                 char: str = '?',
-                 r: int = 255, g: int = 255, b: int = 255,
-                 color: RGB_Color = None,
-                 blocks_movement: bool = False
-                 ):
-
+    def __init__(
+        self,
+        name: str = "<Unnamed>",
+        char: str = "?",
+        r: int = 255,
+        g: int = 255,
+        b: int = 255,
+        color: RGB_Color = None,
+        blocks_movement: bool = False,
+    ):
         self.name = name
         self.char = char
         self.color = color or RGB_Color(r, g, b)
@@ -51,5 +53,6 @@ class Entity:
 
     def __repr__(self) -> str:
         return f'Entity {self.name} at: "({self.transform.x}, {self.transform.y})" at memory location {hex(id(self))}'
+
 
 # Path: console_game_engine/game_map.py

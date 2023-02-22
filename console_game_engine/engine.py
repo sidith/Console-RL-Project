@@ -13,13 +13,13 @@ from console_game_engine.input_handlers import EventHandler
 
 
 class Engine:
-    def __init__(self,
-                 event_handler: EventHandler,
-                 game_map: GameMap,
-                 player: Entity,
-                 fov_algorithm: int
-                 ) -> None:
-
+    def __init__(
+        self,
+        event_handler: EventHandler,
+        game_map: GameMap,
+        player: Entity,
+        fov_algorithm: int,
+    ) -> None:
         self.event_handler = event_handler
         self.game_map = game_map
         self.player = player
@@ -34,7 +34,6 @@ class Engine:
 
     def handle_events(self, events: Iterable[Any]) -> None:
         for event in events:
-
             if event == None:
                 continue
 
@@ -54,11 +53,11 @@ class Engine:
             (transform.x, transform.y),
             radius=10,
             algorithm=fov_algorithm,
-            light_walls=True)
+            light_walls=True,
+        )
         self.game_map.explored |= self.game_map.visible
 
     def render(self, console: Console, context: Context) -> None:
-
         self.game_map.render(console)
 
         context.present(console)
@@ -67,7 +66,8 @@ class Engine:
     @benchmark
     def generate_dungeon(self, max_rooms: int, min_room_size: int, max_room_size: int):
         procedural_gen.generate_dungeon(
-            self.game_map, max_rooms, min_room_size, max_room_size, self.player)
+            self.game_map, max_rooms, min_room_size, max_room_size, self.player
+        )
 
     def __str__(self) -> str:
-        return f'Engine(event_handler={self.event_handler}, game_map={self.game_map}, player={self.player})'
+        return f"Engine(event_handler={self.event_handler}, game_map={self.game_map}, player={self.player})"

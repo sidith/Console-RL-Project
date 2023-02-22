@@ -1,9 +1,10 @@
-
 import random
 from dataclasses import dataclass
 
-from procedural_generator.procedural_gen import (RectangularRoom,
-                                                 create_horizontal_and_verticle_tunnel)
+from procedural_generator.procedural_gen import (
+    RectangularRoom,
+    create_horizontal_and_verticle_tunnel,
+)
 
 
 @dataclass()
@@ -32,21 +33,22 @@ test_graph = {
 }
 
 
-def generate_rooms_from_nodes(map_width, map_height, room_min_size, room_max_size, graph):
+def generate_rooms_from_nodes(
+    map_width, map_height, room_min_size, room_max_size, graph
+):
     new_rooms = []
 
     for _ in graph:
-        new_room = random_room(map_width, map_height,
-                               room_min_size, room_max_size)
+        new_room = random_room(map_width, map_height, room_min_size, room_max_size)
 
         depth = 10
         while any(room.intersects(new_room) for room in new_rooms) & depth > 0:
-            new_room = random_room(map_width, map_height,
-                                   room_min_size, room_max_size)
+            new_room = random_room(map_width, map_height, room_min_size, room_max_size)
             depth -= 1
 
         new_rooms.append(new_room)
     return new_rooms
+
 
 # This function creates a
 
@@ -58,7 +60,8 @@ def generate_tunnels_from_graph(graph, room_min_size, room_max_size):
         for edge in unique_edges:
             if edge.l_node == node:
                 tunnel_pair = create_horizontal_and_verticle_tunnel(
-                    edge.l_node, edge.r_node, room_min_size)
+                    edge.l_node, edge.r_node, room_min_size
+                )
                 tunnels.append(tunnel_pair[0])
                 tunnels.append(tunnel_pair[1])
     return tunnels
@@ -69,7 +72,7 @@ def random_room(map_width, map_height, room_min_size, room_max_size):
         random.randint(0, map_width - room_max_size - 1),
         random.randint(0, map_height - room_max_size - 1),
         random.randint(room_min_size, room_max_size),
-        random.randint(room_min_size, room_max_size)
+        random.randint(room_min_size, room_max_size),
     )
 
     return new_room

@@ -28,7 +28,7 @@ class Configurations:
         flags: int = tcod.context.SDL_WINDOW_RESIZABLE,
         title: str = "Sidith's Roguelike",
         player_entity: Optional[Entity] = None,
-        fov_algorithm=tcod.FOV_PERMISSIVE_4
+        fov_algorithm=tcod.FOV_PERMISSIVE_4,
     ):
         """
         Initialize the configuration parameters.
@@ -67,20 +67,22 @@ class Configurations:
 
         # Entities
         self.entities = {}
-        self.game_map = GameMap(
-            self.map_width, self.map_height, entities=self.entities)
+        self.game_map = GameMap(self.map_width, self.map_height, entities=self.entities)
 
         self.fov_algorithm = fov_algorithm
 
         # Player
         self.player_entity = player_entity or entity_factories.player.spawn(
-            gamemap=self.game_map, x=random.randint(0, self.map_width - 1), y=random.randint(0, self.map_height - 1))
+            gamemap=self.game_map,
+            x=random.randint(0, self.map_width - 1),
+            y=random.randint(0, self.map_height - 1),
+        )
 
         self.engine = Engine(
             event_handler=self.event_handler,
             game_map=self.game_map,
             player=self.player_entity,
-            fov_algorithm=self.fov_algorithm
+            fov_algorithm=self.fov_algorithm,
         )
 
         # Game window parameters

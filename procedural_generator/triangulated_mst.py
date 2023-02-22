@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 from delaunay_triangulation import DelaunayTriangulator
 from graph_explorer import GraphExplorer
 from minimum_spanning_tree_finder import MinimumSpanningTreeFinder
-from generate_non_overlapping_random_points import (
+from generate_random_points import (
     generate_non_overlapping_random_points,
 )
 

@@ -97,7 +97,7 @@ def plot_triangulation_mst(
 
 
 def test():
-    points = generate_non_overlapping_random_points(100, 2, 100)
+    points = generate_non_overlapping_random_points(100, 5, 100)
 
     delaunayMST = DelaunayMST(points)
 

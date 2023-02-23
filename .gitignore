@@ -6,3 +6,7 @@ myenv/
 
 # Ignore logs
 logs/
+
+.coverage
+
+.DS_Store

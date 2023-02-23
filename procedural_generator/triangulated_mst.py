@@ -1,11 +1,11 @@
 from matplotlib import pyplot as plt
 
-from delaunay_triangulation import DelaunayTriangulator
-from graph_explorer import GraphExplorer
-from minimum_spanning_tree_finder import MinimumSpanningTreeFinder
-from generate_random_points import (
-    generate_non_overlapping_random_points,
+from procedural_generator.generate_random_points import (
+    NonOverlappingRandomPointsGenerator,
 )
+from procedural_generator.delaunay_triangulation import DelaunayTriangulator
+from procedural_generator.graph_explorer import GraphExplorer
+from procedural_generator.minimum_spanning_tree_finder import MinimumSpanningTreeFinder
 
 
 class DelaunayMST:
@@ -97,7 +97,7 @@ def plot_triangulation_mst(
 
 
 def test():
-    points = generate_non_overlapping_random_points(100, 5, 100)
+    points = NonOverlappingRandomPointsGenerator(100, 5, 100).generated_points
 
     delaunayMST = DelaunayMST(points)
 

@@ -9,7 +9,8 @@ from console_game_engine import entity, entity_factories
 from console_game_engine.colors import colors
 from console_game_engine.entity import Entity
 from console_game_engine.game_map import GameMap
-from procedural_generator.delaunay_triangulation import DelaunayMST
+from procedural_generator.triangulated_mst import DelaunayMST
+
 
 from .room_generation import RectangularRoom, RoomGenerator
 

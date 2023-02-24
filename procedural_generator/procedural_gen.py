@@ -1,15 +1,15 @@
 # procedual_gen.py
 import logging
 import random
-
 import yaml
-from numpy import block
 
-from console_game_engine import entity, entity_factories
+from console_game_engine import entity_factories
 from console_game_engine.colors import colors
 from console_game_engine.entity import Entity
 from console_game_engine.game_map import GameMap
-from procedural_generator.triangulated_mst import DelaunayMST
+from procedural_generator.generation_strategies import longest_path_in_mst_strategy
+from procedural_generator.graph_explorer import GraphExplorer
+from procedural_generator.minimum_spanning_tree_finder import MinimumSpanningTreeFinder
 
 
 from .room_generation import RectangularRoom, RoomGenerator
@@ -38,7 +38,7 @@ def generate_dungeon(
     # rooms, tunnels = basic_generation_strategy(
     #     game_map, max_rooms, room_min_size, room_max_size, player_transform)
 
-    rooms, tunnels = dulaunay_triangulation_strategy(
+    rooms, tunnels = longest_path_in_mst_strategy(
         dungeon_width=dungeon_width,
         dungeon_height=dungeon_height,
         max_rooms=max_rooms,
@@ -66,33 +66,6 @@ def generate_dungeon(
         game_map.entities.add(monster)
 
 
-def basic_generation_strategy(
-    game_map: GameMap,
-    max_rooms,
-    room_min_size=3,
-    room_max_size=10,
-    player_transform: tuple[int, int] = (0, 0),
-    tunnel_width=1,
-) -> tuple[list, list]:
-    room_generator = RoomGenerator()
-    rooms = []
-    tunnels = []
-
-    generated_rooms = room_generator.generate_rooms(
-        game_map.width,
-        game_map.height,
-        max_rooms,
-        room_min_size,
-        room_max_size,
-        player_transform,
-    )
-    for room in generated_rooms:
-        rooms.append(room)
-
-    tunnels = room_generator.generate_tunnels(tunnel_width, rooms)
-    return rooms, tunnels
-
-
 def generate_monsters(
     game_map: GameMap, rooms: list[RectangularRoom], max_monster_per_room: int
 ) -> list[Entity]:
@@ -103,8 +76,7 @@ def generate_monsters(
 
         number_of_monsters = random.randint(0, max_monster_per_room)
         for _ in range(number_of_monsters):
-            x = random.randint(room.x1 + 1, room.x2 - 1)
-            y = random.randint(room.y1 + 1, room.y2 - 1)
+            x, y = find_point_in_room(room)
 
             if random.random() < 0.8:
                 entity_factories.orc.spawn(game_map, x, y)
@@ -114,35 +86,7 @@ def generate_monsters(
     return monsters
 
 
-def dulaunay_triangulation_strategy(
-    dungeon_width: int,
-    dungeon_height: int,
-    max_rooms: int,
-    player_transform: tuple[int, int],
-    room_min_size=3,
-    room_max_size=10,
-    tunnel_width=1,
-) -> tuple[list, list]:
-    room_generator = RoomGenerator()
-
-    rooms = room_generator.generate_rooms(
-        dungeon_width,
-        dungeon_height,
-        max_rooms,
-        room_min_size,
-        room_max_size,
-        player_transform,
-    )
-
-    room_centers = [room.center for room in rooms]
-    delaunayMST = DelaunayMST(room_centers)
-
-    # For reach index in the list of points in longest path, get the room that
-    connected_rooms = [rooms[i] for i in delaunayMST.points_of_longest_path]
-    # Check to see if the the first room in the rooms list is in the connected rooms list and if it is not append it front of the list
-    if rooms[0] not in connected_rooms:
-        connected_rooms.insert(0, rooms[0])
-
-    tunnels = room_generator.generate_tunnels(tunnel_width, connected_rooms)
-
-    return rooms, tunnels
+def find_point_in_room(room):
+    x = random.randint(room.x1 + 1, room.x2 - 1)
+    y = random.randint(room.y1 + 1, room.y2 - 1)
+    return x, y

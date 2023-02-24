@@ -38,7 +38,7 @@ class TestMinimumSpanningTreeFinder(unittest.TestCase):
         points = [(0, 0), (1, 0), (0, 1), (1, 1)]
         mst = MinimumSpanningTreeFinder(points)
         expected_edges = [(0, 2), (2, 3), (1, 3)]
-        self.assertEqual(set(mst.compute_minimum_spanning_tree), set(expected_edges))
+        self.assertEqual(set(mst.minimum_spanning_tree), set(expected_edges))
 
     def test_edges_are_always_one_less_than_points_across_many_possible_points(self):
         for i in range(100):
@@ -50,4 +50,4 @@ class TestMinimumSpanningTreeFinder(unittest.TestCase):
             points = list(set(points))
             mst = MinimumSpanningTreeFinder(points)
 
-            self.assertEqual(len(mst.compute_minimum_spanning_tree), len(points) - 1)
+            self.assertEqual(len(mst.minimum_spanning_tree), len(points) - 1)

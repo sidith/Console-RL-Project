@@ -30,7 +30,7 @@ class MinimumSpanningTreeFinder:
         return weights
 
     @property
-    def compute_minimum_spanning_tree(self) -> list[tuple[int, int]]:
+    def minimum_spanning_tree(self) -> list[tuple[int, int]]:
         # use Prim's algorithm to find the minimum spanning tree
         mst = []
         edges = set()

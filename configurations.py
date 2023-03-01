@@ -67,7 +67,7 @@ class Configurations:
 
         # Entities
         self.entities = {}
-        self.game_map = GameMap(self.map_width, self.map_height, entities=self.entities)
+        self.game_map = GameMap(self.map_width, self.map_height)
 
         self.fov_algorithm = fov_algorithm
 

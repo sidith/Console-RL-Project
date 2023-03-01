@@ -1,45 +1,29 @@
 # game_map.py
-
-from __future__ import annotations
-
-from html import entities
-from typing import TYPE_CHECKING, Iterable
+from typing import TYPE_CHECKING, Optional
 
 import numpy as np
 from tcod.console import Console
 
-import console_game_engine.tile_types as tile_types
-from console_game_engine.timers import benchmark
+from console_game_engine import tile_types
 from procedural_generator.room_generation import RectangularRoom
 
-if TYPE_CHECKING:
-    from .entity import Entity
+from console_game_engine.entity import Entity
 
 
 class GameMap:
-    def __init__(self, width: int, height: int, entities: Iterable[Entity]) -> None:
-        """
-        Create a new game map.
-
-        :param width: The width of the map in tiles.
-        :param height: The height of the map in tiles.
-        """
+    def __init__(self, width: int, height: int) -> None:
         self.width, self.height = width, height
-        self.tiles = np.full((width, height), fill_value=tile_types.wall, order="F")
-
-        self.entities = set(entities)
+        self.tiles = np.full(
+            (width, height), fill_value=tile_types.tile_types["wall"], order="F"
+        )
+        self.entities: set(Entity) = set()
 
         self.visible = np.full((width, height), fill_value=False, order="F")
         self.explored = np.full((width, height), fill_value=False, order="F")
 
-    @benchmark
-    def get_blocking_entity_at_location(self, location_x, location_y) -> Entity:
+    def get_blocking_entity_at_location(self, location_x, location_y):
         for entity in self.entities:
-            if (
-                entity.blocks_movement
-                and entity.transform.x == location_x
-                and entity.transform.y == location_y
-            ):
+            if entity.blocks_location(location_x, location_y):
                 return entity
         return None
 
@@ -47,11 +31,6 @@ class GameMap:
         return 0 <= x < self.width and 0 <= y < self.height
 
     def render(self, console: Console) -> None:
-        """
-        Render the map.
-
-        :param console: The console used to render the map.
-        """
         console.tiles_rgb[0 : self.width, 0 : self.height] = np.select(
             condlist=[self.visible, self.explored],
             choicelist=[self.tiles["light"], self.tiles["dark"]],
@@ -64,18 +43,6 @@ class GameMap:
                 console.print(
                     x=transform.x, y=transform.y, string=entity.char, fg=entity.color
                 )
-
-    def shift(self, dx: int, dy: int) -> None:
-        """This method shifts the map by the given amount.
-
-        Args:
-            dx (int): Distance to shift in the x direction.
-            dy (int): Distance to shift in the y direction.
-        """
-        self.tiles = np.roll(self.tiles, shift=dx, axis=0)
-        self.tiles = np.roll(self.tiles, shift=dy, axis=1)
-
-    # This function adds the rooms to the map
 
     def add_room_to_game_map(
         self, room: RectangularRoom, tile_type: str, slice_type: str

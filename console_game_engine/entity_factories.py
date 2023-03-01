@@ -1,4 +1,6 @@
-from .entity import Entity, Transform
+# entity_factories.py
+
+from .entity import Entity
 from .colors import colors
 
 player = Entity(

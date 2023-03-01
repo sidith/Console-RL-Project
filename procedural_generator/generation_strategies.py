@@ -1,5 +1,6 @@
 # generation_strategies.py | 0
 
+from matplotlib.pyplot import plasma
 from console_game_engine.game_map import GameMap
 from procedural_generator.graph_explorer import GraphExplorer
 from procedural_generator.minimum_spanning_tree_finder import MinimumSpanningTreeFinder
@@ -23,7 +24,8 @@ def longest_path_in_mst_strategy(
         max_rooms,
         room_min_size,
         room_max_size,
-        player_transform,
+        player_transform.x,
+        player_transform.y,
     )
 
     room_centers = [room.center for room in rooms]
@@ -63,7 +65,8 @@ def basic_generation_strategy(
         max_rooms,
         room_min_size,
         room_max_size,
-        player_transform,
+        player_transform.x,
+        player_transform.y,
     )
     for room in generated_rooms:
         rooms.append(room)

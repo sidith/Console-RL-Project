@@ -60,15 +60,12 @@ class RoomGenerator:
 
         if len(rooms) <= 1:
             return tunnels
-
-        # This loop works by taking the first room in the list and connecting it to the second room in the list. Then it takes the second room in the list and connects it to the third room in the list. It does this until it reaches the last room in the list. Then it takes the last room in the list and connects it to the first room in the list. This creates a loop of tunnels.
         for room1, room2 in zip(rooms, rooms[1:]):
             tunnel_pair = self.create_horizontal_and_verticle_tunnel(
                 room1, room2, tunnel_width
             )
             tunnels.append(tunnel_pair[0])
             tunnels.append(tunnel_pair[1])
-
         return tunnels
 
     def create_horizontal_and_verticle_tunnel(
@@ -79,7 +76,6 @@ class RoomGenerator:
     ) -> list[RectangularRoom]:
         x1, y1 = staring_room.center
         x2, y2 = ending_room.center
-
         horizontal_tunnel = RectangularRoom(
             min(x1, x2), y1, abs(x1 - x2) + 1, tunnel_width, "Horzontal Tunnel"
         )
@@ -97,11 +93,12 @@ class RoomGenerator:
         max_rooms: int,
         room_min_size: int,
         room_max_size: int,
-        player_transform: tuple[int, int],
+        spawn_x: int,
+        spawn_y: int,
     ) -> list[RectangularRoom]:
         new_rooms = []
 
-        spawn_room = self.create_spawn_room(player_transform)
+        spawn_room = self.create_spawn_room(spawn_x, spawn_y)
         new_rooms.append(spawn_room)
 
         for _ in range(max_rooms):
@@ -119,12 +116,10 @@ class RoomGenerator:
         return new_rooms
 
     # this function creates the spawn room
-    def create_spawn_room(
-        self, player_transform: tuple[int, int], spawn_room_size: int = 6
-    ) -> RectangularRoom:
+    def create_spawn_room(self, x, y, spawn_room_size: int = 6) -> RectangularRoom:
         spawn_room = RectangularRoom(
-            player_transform.x - 3,
-            player_transform.y - 3,
+            x - 3,
+            y - 3,
             spawn_room_size,
             spawn_room_size,
             "Spawn_Room",
